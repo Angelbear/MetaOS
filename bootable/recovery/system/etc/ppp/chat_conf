@@ -1,0 +1,14 @@
+#
+TIMEOUT     3
+ABORT       "NO CARRIER"
+ABORT       "NO DIALTONE"
+ABORT       "ERROR"
+ABORT       "NO ANSWER"
+ABORT       "BUSY"
+TIMEOUT     30
+""          ATZ
+#OK          ATQ0 V1 E1 S0=0 &C1 &D2 +FCLASS=0
+#OK          ATM0
+OK          AT+CRM=1;+CMUX=1;+CPS=33;+CTA=0
+OK          ATDT#777
+CONNECT

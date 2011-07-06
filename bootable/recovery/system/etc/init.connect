@@ -1,0 +1,5 @@
+#!/sbin/sh
+mount -t vfat /dev/block/mmcblk0p1 /sdcard/
+radiooptions 5
+sleep 10
+radiooptions 11

@@ -1,0 +1,3 @@
+# properties for fineline samsung lcd
+service.overlay.rotate=180
+hardware.portrait.rotate=90

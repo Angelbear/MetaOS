@@ -1,0 +1,13 @@
+#!/system/bin/sh
+chat -v -s \
+TIMEOUT     3 \
+ABORT       "NO CARRIER" \
+ABORT       "NO DIALTONE" \
+ABORT       "ERROR" \
+ABORT       "NO ANSWER" \
+ABORT       "BUSY" \
+TIMEOUT     30 \
+""          ATZ \
+OK          'AT+CRM=1;+CMUX=1;+CPS=33;+CTA=0' \
+OK          ATDT$PPP_CODE \
+CONNECT ''

@@ -1,0 +1,8 @@
+#!/system/bin/sh
+echo 1 > /proc/driver/otg
+sleep 10
+pppd -detach modem crtscts debug \
+/dev/VIAUSBModem0 115200 noipdefault user $PPP_USER password $PPP_PASSWD \
+defaultroute usepeerdns \
+connect  "/etc/ppp/pppondialer"
+

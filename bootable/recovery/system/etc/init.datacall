@@ -1,0 +1,5 @@
+#!/system/bin/sh
+sendmessage 2 "network registed, begin to dial..."
+sendmessage 1 20 10
+sleep 3
+radiooptions 6 1 2 cmnet 3 3 3

@@ -1,0 +1,63 @@
+
+on init
+    export PATH /sbin:/system/bin:/data/local/bin:/marvell/tel
+	export LD_LIBRARY_PATH /system/lib
+    export ANDROID_ROOT /system
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+
+    mkdir /data
+	mkdir /data/local
+	mkdir /data/local/bin
+    mkdir /cache
+    mount /tmp /tmp tmpfs
+	#mount yaffs2 mtd@system /system
+	symlink /sbin/busybox /sbin/sh
+	symlink /sbin/busybox /system/bin/sh
+	symlink /system/etc /etc
+	
+	mount yaffs2 mtd@telephony /marvell
+	chown system system /marvell
+	chmod 0711 /marvell
+
+	chmod 0755 /sbin/busybox
+	chmod 0755 /sbin/recovery
+	chmod 0755 /sbin/sh
+
+on boot
+    ifup lo
+    hostname localhost
+    domainname localdomain
+
+	class_start default
+
+
+service console /sbin/bash
+    console
+
+service install_busybox /sbin/busybox --install
+    oneshot 
+
+service netd /system/bin/netd
+   socket netd stream 0660 root system
+
+#service debuggerd /system/bin/debuggerd
+
+service marvelltel /marvell/tel/launch
+   oneshot
+
+service ril-daemon /system/bin/rild -l libmarvell-ril.so
+   socket rild stream 660 root radio
+   socket rild-debug stream 660 radio system
+   user root
+   group radio cache inet misc audio
+
+service recovery /sbin/recovery --socket_server
+
+service adbd /sbin/adbd recovery
+
+on property:persist.service.adb.enable=1
+    start adbd
+
+on property:persist.service.adb.enable=0
+    stop adbd

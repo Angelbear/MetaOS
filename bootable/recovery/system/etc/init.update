@@ -1,0 +1,50 @@
+#!/system/bin/sh
+sendmessage 2 "obtain ip successfully"
+sleep 1
+SERVER=123.99.230.172
+LOG= /sdcard/log.txt
+sendmessage 2 "begin to download package"
+sendmessage 1 20 10
+wget http://$SERVER/pkg/CURRENT_REVISION
+NEW=`cat /CURRENT_REVISION`
+OLD=`cat /ram/system/CURRENT_REVISION`
+echo OLD is $OLD, NEW is $NEW >> $LOG
+if [ "$?" != "0" ]; then
+	echo NOT VERSIONED >> $LOG
+OLD=0
+fi
+if [ "$OLD" != "$NEW" ]; then
+	cd /sdcard
+	rm deleted-${NEW}.lst
+	rm delta-${NEW}.tar.gz
+	rm patch-${NEW}.lst
+	rm patch-${NEW}.tar.gz
+	wget http://$SERVER/pkg/$OLD/deleted-${NEW}.lst
+	wget http://$SERVER/pkg/$OLD/delta-${NEW}.tar.gz
+	mv deleted-${NEW}.lst /deleted-${NEW}.lst
+	wget http://$SERVER/pkg/$OLD/patch-${NEW}.lst
+	wget http://$SERVER/pkg/$OLD/patch-${NEW}.tar.gz
+	mv patch-${NEW}.lst /patch-${NEW}.lst
+	cat delta-${NEW}.tar.gz | gunzip | tar x -C /ram
+	sendmessage 2 "begin to update..."
+	sendmessage 1 30 10
+	cd /
+	sh deleted-${NEW}.lst
+	rm -rf /sdcard/patch
+	mkdir /sdcard/patch
+	cd /sdcard
+	cat patch-${NEW}.tar.gz | gunzip | tar x -C /sdcard/patch
+	cd /
+	sh patch-${NEW}.lst
+	cd /sdcard
+	rm -rf /sdcard/patch
+	rm /deleted-${NEW}.lst
+	rm delta-${NEW}.tar.gz
+	rm /patch-${NEW}.lst
+	rm patch-${NEW}.tar.gz
+	cd /
+	cp /CURRENT_REVISION /ram/system/CURRENT_REVISION
+fi
+umount /ram/system
+sendmessage 2 "update finished, now rebooting..."
+#sendmessage 4

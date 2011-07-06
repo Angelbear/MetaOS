@@ -1,0 +1,8 @@
+<plmnOverrides>
+	<plmnOverride numeric="46000_zh_CN" plmn="中国移动"/>
+	<plmnOverride numeric="46000_zh_TW" plmn="中國移動"/>
+	<plmnOverride numeric="46001_zh_CN" plmn="中国联通"/>
+	<plmnOverride numeric="46001_zh_TW" plmn="中國聯通"/>
+	<plmnOverride numeric="46002_zh_CN" plmn="中国移动"/>
+	<plmnOverride numeric="46002_zh_TW" plmn="中國移動"/>
+</plmnOverrides>

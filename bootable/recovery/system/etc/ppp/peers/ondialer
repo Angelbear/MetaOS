@@ -1,0 +1,18 @@
+/dev/VIAUSBModem0
+115200
+crtscts
+connect 'chat -v -f /etc/ppp/chat_conf'
+debug
+dump
+nodetach
+defaultroute
+local
+usepeerdns
+unit 0
+ipcp-accept-local
+ipcp-accept-remote
+linkname gprs
+novj
+user card
+logfile /data/ppp.log
+

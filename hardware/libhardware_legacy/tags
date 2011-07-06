@@ -1,0 +1,600 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACQUIRE_PARTIAL_WAKE_LOCK	power/power.c	/^    ACQUIRE_PARTIAL_WAKE_LOCK = 0,$/;"	e	enum:__anon30	file:
+AGPS_INTERFACE	include/hardware_legacy/gps.h	125;"	d
+AGPS_TYPE_C2K	include/hardware_legacy/gps.h	96;"	d
+AGPS_TYPE_SUPL	include/hardware_legacy/gps.h	95;"	d
+AGpsCallbacks	include/hardware_legacy/gps.h	/^} AGpsCallbacks;$/;"	t	typeref:struct:__anon13
+AGpsInterface	include/hardware_legacy/gps.h	/^} AGpsInterface;$/;"	t	typeref:struct:__anon14
+AGpsStatus	include/hardware_legacy/gps.h	/^} AGpsStatus;$/;"	t	typeref:struct:__anon12
+AGpsStatusValue	include/hardware_legacy/gps.h	/^typedef uint16_t AGpsStatusValue;$/;"	t
+AGpsType	include/hardware_legacy/gps.h	/^typedef uint16_t AGpsType;$/;"	t
+ANDROID_AUDIOPOLICYINTERFACE_H	include/hardware_legacy/AudioPolicyInterface.h	18;"	d
+ANDROID_AUDIO_HARDWARE_BASE_H	include/hardware_legacy/AudioHardwareBase.h	18;"	d
+ANDROID_AUDIO_HARDWARE_INTERFACE_H	include/hardware_legacy/AudioHardwareInterface.h	18;"	d
+ANDROID_HARDWARE_IMOBILEBROADBANDSERVICE_H	include/hardware_legacy/IMobileBroadbandService.h	19;"	d
+ANDROID_HARDWARE_IMOUNTSERVICE_H	include/hardware_legacy/IMountService.h	19;"	d
+AUTO_OFF_TIMEOUT_DEV	power/power.c	/^const char * const AUTO_OFF_TIMEOUT_DEV = "\/sys\/android_power\/auto_off_timeout";$/;"	v
+AudioHardwareBase	include/hardware_legacy/AudioHardwareBase.h	/^class AudioHardwareBase : public AudioHardwareInterface$/;"	c	namespace:android
+AudioHardwareInterface	include/hardware_legacy/AudioHardwareInterface.h	/^class AudioHardwareInterface$/;"	c	namespace:android
+AudioInputDescriptor	include/hardware_legacy/AudioPolicyManagerBase.h	/^        class AudioInputDescriptor$/;"	c	class:android::AudioPolicyManagerBase
+AudioOutputDescriptor	include/hardware_legacy/AudioPolicyManagerBase.h	/^        class AudioOutputDescriptor$/;"	c	class:android::AudioPolicyManagerBase
+AudioPolicyClientInterface	include/hardware_legacy/AudioPolicyInterface.h	/^class AudioPolicyClientInterface$/;"	c	namespace:android
+AudioPolicyInterface	include/hardware_legacy/AudioPolicyInterface.h	/^class AudioPolicyInterface$/;"	c	namespace:android
+AudioPolicyManagerBase	include/hardware_legacy/AudioPolicyManagerBase.h	/^class AudioPolicyManagerBase: public AudioPolicyInterface$/;"	c	namespace:android
+AudioStreamIn	include/hardware_legacy/AudioHardwareInterface.h	/^class AudioStreamIn {$/;"	c	namespace:android
+AudioStreamOut	include/hardware_legacy/AudioHardwareInterface.h	/^class AudioStreamOut {$/;"	c	namespace:android
+BSSID	wificonnect.c	119;"	d	file:
+BSSID_NAME	wificonnect.c	116;"	d	file:
+BpMobileBroadbandService	mobilebroadband/IMobileBroadbandService.cpp	/^    BpMobileBroadbandService(const sp<IBinder>& impl)$/;"	f	class:android::BpMobileBroadbandService
+BpMobileBroadbandService	mobilebroadband/IMobileBroadbandService.cpp	/^class BpMobileBroadbandService : public BpInterface<IMobileBroadbandService>$/;"	c	namespace:android	file:
+CMD_QUIT	gps/gps_qemu.c	/^    CMD_QUIT  = 0,$/;"	e	enum:__anon28	file:
+CMD_START	gps/gps_qemu.c	/^    CMD_START = 1,$/;"	e	enum:__anon28	file:
+CMD_STOP	gps/gps_qemu.c	/^    CMD_STOP  = 2$/;"	e	enum:__anon28	file:
+CONNECTED	wificonnect.c	159;"	d	file:
+CONNECT_MOBILE_BROADBAND_TRANSACTION	mobilebroadband/IMobileBroadbandService.cpp	/^    CONNECT_MOBILE_BROADBAND_TRANSACTION,$/;"	e	enum:android::__anon1	file:
+D	gps/gps_marvell_sirf.c	26;"	d	file:
+D	gps/gps_marvell_sirf.c	30;"	d	file:
+D	gps/gps_marvell_sirf.c	34;"	d	file:
+D	gps/gps_qemu.c	21;"	d	file:
+D	gps/gps_qemu.c	23;"	d	file:
+D	qemu/qemu.c	34;"	d	file:
+D	qemu/qemu.c	36;"	d	file:
+DISCONNECT_MOBILE_BROADBAND_TRANSACTION	mobilebroadband/IMobileBroadbandService.cpp	/^    DISCONNECT_MOBILE_BROADBAND_TRANSACTION,$/;"	e	enum:android::__anon1	file:
+DRIVER_PROP_NAME	wifi/mrvl8787_wifi.c	/^static const char DRIVER_PROP_NAME[]    = "wlan.driver.status";$/;"	v	file:
+D_KEY	gps/gps_marvell_sirf.c	23;"	d	file:
+D_LOW	gps/gps_marvell_sirf.c	27;"	d	file:
+D_LOW	gps/gps_marvell_sirf.c	31;"	d	file:
+D_LOW	gps/gps_marvell_sirf.c	35;"	d	file:
+EVENT_PREFIX	wificonnect.c	158;"	d	file:
+FULL_WAKE_LOCK	include/hardware_legacy/power.h	/^    FULL_WAKE_LOCK = 2      \/\/ the screen is also on$/;"	e	enum:__anon2
+GET_MOBILE_BROADBAND_CONNECTED_TRANSACTION	mobilebroadband/IMobileBroadbandService.cpp	/^    GET_MOBILE_BROADBAND_CONNECTED_TRANSACTION = IBinder::FIRST_CALL_TRANSACTION,$/;"	e	enum:android::__anon1	file:
+GPS_AGPS_DATA_CONNECTED	include/hardware_legacy/gps.h	106;"	d
+GPS_AGPS_DATA_CONN_DONE	include/hardware_legacy/gps.h	108;"	d
+GPS_AGPS_DATA_CONN_FAILED	include/hardware_legacy/gps.h	110;"	d
+GPS_DEBUG	gps/gps_marvell_sirf.c	21;"	d	file:
+GPS_DEBUG	gps/gps_qemu.c	18;"	d	file:
+GPS_DEBUG_INTERFACE	include/hardware_legacy/gps.h	120;"	d
+GPS_DELETE_ALL	include/hardware_legacy/gps.h	91;"	d
+GPS_DELETE_ALMANAC	include/hardware_legacy/gps.h	80;"	d
+GPS_DELETE_CELLDB_INFO	include/hardware_legacy/gps.h	90;"	d
+GPS_DELETE_EPHEMERIS	include/hardware_legacy/gps.h	79;"	d
+GPS_DELETE_HEALTH	include/hardware_legacy/gps.h	85;"	d
+GPS_DELETE_IONO	include/hardware_legacy/gps.h	83;"	d
+GPS_DELETE_POSITION	include/hardware_legacy/gps.h	81;"	d
+GPS_DELETE_RTI	include/hardware_legacy/gps.h	89;"	d
+GPS_DELETE_SADATA	include/hardware_legacy/gps.h	88;"	d
+GPS_DELETE_SVDIR	include/hardware_legacy/gps.h	86;"	d
+GPS_DELETE_SVSTEER	include/hardware_legacy/gps.h	87;"	d
+GPS_DELETE_TIME	include/hardware_legacy/gps.h	82;"	d
+GPS_DELETE_UTC	include/hardware_legacy/gps.h	84;"	d
+GPS_ENC_NONE	include/hardware_legacy/gps_ni.h	69;"	d
+GPS_ENC_SUPL_GSM_DEFAULT	include/hardware_legacy/gps_ni.h	70;"	d
+GPS_ENC_SUPL_UCS2	include/hardware_legacy/gps_ni.h	72;"	d
+GPS_ENC_SUPL_UTF8	include/hardware_legacy/gps_ni.h	71;"	d
+GPS_ENC_UNKNOWN	include/hardware_legacy/gps_ni.h	73;"	d
+GPS_LOCATION_HAS_ACCURACY	include/hardware_legacy/gps.h	72;"	d
+GPS_LOCATION_HAS_ALTITUDE	include/hardware_legacy/gps.h	66;"	d
+GPS_LOCATION_HAS_BEARING	include/hardware_legacy/gps.h	70;"	d
+GPS_LOCATION_HAS_LAT_LONG	include/hardware_legacy/gps.h	64;"	d
+GPS_LOCATION_HAS_SPEED	include/hardware_legacy/gps.h	68;"	d
+GPS_MAX_SVS	include/hardware_legacy/gps.h	31;"	d
+GPS_NI_INTERFACE	include/hardware_legacy/gps_ni.h	29;"	d
+GPS_NI_LONG_STRING_MAXLEN	include/hardware_legacy/gps_ni.h	35;"	d
+GPS_NI_NEED_NOTIFY	include/hardware_legacy/gps_ni.h	50;"	d
+GPS_NI_NEED_VERIFY	include/hardware_legacy/gps_ni.h	52;"	d
+GPS_NI_PRIVACY_OVERRIDE	include/hardware_legacy/gps_ni.h	54;"	d
+GPS_NI_RESPONSE_ACCEPT	include/hardware_legacy/gps_ni.h	61;"	d
+GPS_NI_RESPONSE_DENY	include/hardware_legacy/gps_ni.h	62;"	d
+GPS_NI_RESPONSE_NORESP	include/hardware_legacy/gps_ni.h	63;"	d
+GPS_NI_SHORT_STRING_MAXLEN	include/hardware_legacy/gps_ni.h	34;"	d
+GPS_NI_TYPE_UMTS_CTRL_PLANE	include/hardware_legacy/gps_ni.h	43;"	d
+GPS_NI_TYPE_UMTS_SUPL	include/hardware_legacy/gps_ni.h	42;"	d
+GPS_NI_TYPE_VOICE	include/hardware_legacy/gps_ni.h	41;"	d
+GPS_POSITION_MODE_MS_ASSISTED	include/hardware_legacy/gps.h	42;"	d
+GPS_POSITION_MODE_MS_BASED	include/hardware_legacy/gps.h	40;"	d
+GPS_POSITION_MODE_STANDALONE	include/hardware_legacy/gps.h	38;"	d
+GPS_PRIVACY_INTERFACE	include/hardware_legacy/gps.h	130;"	d
+GPS_RELEASE_AGPS_DATA_CONN	include/hardware_legacy/gps.h	104;"	d
+GPS_REQUEST_AGPS_DATA_CONN	include/hardware_legacy/gps.h	102;"	d
+GPS_STATE_LOCK_FIX	gps/gps_marvell_sirf.c	758;"	d	file:
+GPS_STATE_LOCK_FIX	gps/gps_marvell_sirf.c	768;"	d	file:
+GPS_STATE_UNLOCK_FIX	gps/gps_marvell_sirf.c	765;"	d	file:
+GPS_STATE_UNLOCK_FIX	gps/gps_marvell_sirf.c	769;"	d	file:
+GPS_STATUS_ENGINE_OFF	include/hardware_legacy/gps.h	57;"	d
+GPS_STATUS_ENGINE_ON	include/hardware_legacy/gps.h	55;"	d
+GPS_STATUS_NONE	include/hardware_legacy/gps.h	49;"	d
+GPS_STATUS_SESSION_BEGIN	include/hardware_legacy/gps.h	51;"	d
+GPS_STATUS_SESSION_END	include/hardware_legacy/gps.h	53;"	d
+GPS_XTRA_INTERFACE	include/hardware_legacy/gps.h	115;"	d
+GpsAidingData	include/hardware_legacy/gps.h	/^typedef uint16_t GpsAidingData;$/;"	t
+GpsCallbacks	include/hardware_legacy/gps.h	/^} GpsCallbacks;$/;"	t	typeref:struct:__anon7
+GpsDebugInterface	include/hardware_legacy/gps.h	/^} GpsDebugInterface;$/;"	t	typeref:struct:__anon11
+GpsInterface	include/hardware_legacy/gps.h	/^} GpsInterface;$/;"	t	typeref:struct:__anon8
+GpsLocation	include/hardware_legacy/gps.h	/^} GpsLocation;$/;"	t	typeref:struct:__anon3
+GpsLocationFlags	include/hardware_legacy/gps.h	/^typedef uint16_t GpsLocationFlags;$/;"	t
+GpsNiCallbacks	include/hardware_legacy/gps_ni.h	/^} GpsNiCallbacks;$/;"	t	typeref:struct:__anon17
+GpsNiEncodingType	include/hardware_legacy/gps_ni.h	/^typedef int GpsNiEncodingType;$/;"	t
+GpsNiInterface	include/hardware_legacy/gps_ni.h	/^} GpsNiInterface;$/;"	t	typeref:struct:__anon18
+GpsNiNotification	include/hardware_legacy/gps_ni.h	/^} GpsNiNotification;$/;"	t	typeref:struct:__anon16
+GpsNiNotifyFlags	include/hardware_legacy/gps_ni.h	/^typedef uint32_t GpsNiNotifyFlags;$/;"	t
+GpsNiType	include/hardware_legacy/gps_ni.h	/^typedef uint32_t GpsNiType;$/;"	t
+GpsPositionMode	include/hardware_legacy/gps.h	/^typedef uint16_t GpsPositionMode;$/;"	t
+GpsPrivacyInterface	include/hardware_legacy/gps.h	/^} GpsPrivacyInterface;$/;"	t	typeref:struct:__anon15
+GpsState	gps/gps_marvell_sirf.c	/^} GpsState;$/;"	t	typeref:struct:__anon22	file:
+GpsState	gps/gps_qemu.c	/^} GpsState;$/;"	t	typeref:struct:__anon29	file:
+GpsStatus	include/hardware_legacy/gps.h	/^} GpsStatus;$/;"	t	typeref:struct:__anon4
+GpsStatusValue	include/hardware_legacy/gps.h	/^typedef uint16_t GpsStatusValue;$/;"	t
+GpsSvInfo	include/hardware_legacy/gps.h	/^} GpsSvInfo;$/;"	t	typeref:struct:__anon5
+GpsSvStatus	include/hardware_legacy/gps.h	/^} GpsSvStatus;$/;"	t	typeref:struct:__anon6
+GpsUserResponseType	include/hardware_legacy/gps_ni.h	/^typedef int GpsUserResponseType;$/;"	t
+GpsUtcTime	include/hardware_legacy/gps.h	/^typedef int64_t GpsUtcTime;$/;"	t
+GpsXtraCallbacks	include/hardware_legacy/gps.h	/^} GpsXtraCallbacks;$/;"	t	typeref:struct:__anon9
+GpsXtraInterface	include/hardware_legacy/gps.h	/^} GpsXtraInterface;$/;"	t	typeref:struct:__anon10
+IFACE_DIR	wifi/mrvl8787_wifi.c	/^static const char IFACE_DIR[]           = "\/data\/system\/wpa_supplicant";$/;"	v	file:
+IMobileBroadbandService	include/hardware_legacy/IMobileBroadbandService.h	/^class IMobileBroadbandService : public IInterface$/;"	c	namespace:android
+IMountService	include/hardware_legacy/IMountService.h	/^class IMountService : public IInterface$/;"	c	namespace:android
+KEY_MGMT	wificonnect.c	117;"	d	file:
+LOCAL_CFLAGS	tests/gpstest/Android.mk	/^LOCAL_CFLAGS:= -fno-short-enums$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_C_INCLUDES	tests/gpstest/Android.mk	/^LOCAL_C_INCLUDES:= \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := wificonnect$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= libhardware_legacy$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= libpower$/;"	m
+LOCAL_MODULE	tests/gpstest/Android.mk	/^LOCAL_MODULE:= gpstest$/;"	m
+LOCAL_MODULE_PATH	tests/gpstest/Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)$/;"	m
+LOCAL_MODULE_TAGS	tests/gpstest/Android.mk	/^LOCAL_MODULE_TAGS:= tests$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	tests/gpstest/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libhardware_legacy libcutils libnetutils$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libutils libbinder libcutils libwpa_client$/;"	m
+LOCAL_SHARED_LIBRARIES	tests/gpstest/Android.mk	/^LOCAL_SHARED_LIBRARIES:= libhardware_legacy$/;"	m
+LOCAL_SRC_FILES	tests/gpstest/Android.mk	/^LOCAL_SRC_FILES:= gpstest.cpp$/;"	m
+LOG_TAG	gps/gps.cpp	4;"	d	file:
+LOG_TAG	gps/gps_marvell_sirf.c	14;"	d	file:
+LOG_TAG	gps/gps_qemu.c	10;"	d	file:
+LOG_TAG	power/power.c	30;"	d	file:
+LOG_TAG	qemu/qemu.c	21;"	d	file:
+LOG_TAG	wifi/mrvl8787_wifi.c	24;"	d	file:
+MAX_BUF_SIZE	qemu_tracing/qemu_tracing.c	37;"	d	file:
+MAX_DEVICE_ADDRESS_LEN	include/hardware_legacy/AudioPolicyManagerBase.h	30;"	d
+MAX_NMEA_TOKENS	gps/gps_marvell_sirf.c	55;"	d	file:
+MAX_NMEA_TOKENS	gps/gps_qemu.c	40;"	d	file:
+MAX_SYMBOL_NAME_LENGTH	qemu_tracing/qemu_tracing.c	34;"	d	file:
+MUTE_TIME_MS	include/hardware_legacy/AudioPolicyManagerBase.h	40;"	d
+MarvellAGpsInterface	gps/gps_marvell_sirf.c	/^static const AGpsInterface MarvellAGpsInterface =$/;"	v	file:
+MarvellGpsNiInterface	gps/gps_marvell_sirf.c	/^static const GpsNiInterface MarvellGpsNiInterface =$/;"	v	file:
+Marvell_gps_ni_init	gps/gps_marvell_sirf.c	/^static void Marvell_gps_ni_init (GpsNiCallbacks *callbacks)$/;"	f	file:
+Marvell_gps_ni_respond	gps/gps_marvell_sirf.c	/^static void Marvell_gps_ni_respond (int notif_id, GpsUserResponseType user_response)$/;"	f	file:
+NEW_PATHS	power/power.c	/^const char * const NEW_PATHS[] = {$/;"	v
+NMEA_MAX_SIZE	gps/gps_marvell_sirf.c	179;"	d	file:
+NMEA_MAX_SIZE	gps/gps_qemu.c	156;"	d	file:
+NUM_STRATEGIES	include/hardware_legacy/AudioPolicyManagerBase.h	/^            NUM_STRATEGIES$/;"	e	enum:android::AudioPolicyManagerBase::routing_strategy
+NUM_TEST_OUTPUTS	include/hardware_legacy/AudioPolicyManagerBase.h	42;"	d
+NmeaReader	gps/gps_marvell_sirf.c	/^} NmeaReader;$/;"	t	typeref:struct:__anon21	file:
+NmeaReader	gps/gps_qemu.c	/^} NmeaReader;$/;"	t	typeref:struct:__anon27	file:
+NmeaTokenizer	gps/gps_marvell_sirf.c	/^} NmeaTokenizer;$/;"	t	typeref:struct:__anon20	file:
+NmeaTokenizer	gps/gps_qemu.c	/^} NmeaTokenizer;$/;"	t	typeref:struct:__anon26	file:
+OLD_PATHS	power/power.c	/^const char * const OLD_PATHS[] = {$/;"	v
+OUR_FD_COUNT	power/power.c	/^    OUR_FD_COUNT$/;"	e	enum:__anon30	file:
+OperationFailedInternalError	include/hardware_legacy/IMountService.h	/^    static const int OperationFailedInternalError     = -1;$/;"	m	class:android::IMountService
+OperationFailedMediaBlank	include/hardware_legacy/IMountService.h	/^    static const int OperationFailedMediaBlank        = -3;$/;"	m	class:android::IMountService
+OperationFailedMediaCorrupt	include/hardware_legacy/IMountService.h	/^    static const int OperationFailedMediaCorrupt      = -4;$/;"	m	class:android::IMountService
+OperationFailedNoMedia	include/hardware_legacy/IMountService.h	/^    static const int OperationFailedNoMedia           = -2;$/;"	m	class:android::IMountService
+OperationFailedVolumeNotMounted	include/hardware_legacy/IMountService.h	/^    static const int OperationFailedVolumeNotMounted  = -5;$/;"	m	class:android::IMountService
+OperationSucceeded	include/hardware_legacy/IMountService.h	/^    static const int OperationSucceeded               = 0;$/;"	m	class:android::IMountService
+PARTIAL_WAKE_LOCK	include/hardware_legacy/power.h	/^    PARTIAL_WAKE_LOCK = 1,  \/\/ the cpu stays on, but the screen is off$/;"	e	enum:__anon2
+PASS	wificonnect.c	120;"	d	file:
+PSK	wificonnect.c	122;"	d	file:
+PSK_NAME	wificonnect.c	121;"	d	file:
+QEMU_CHANNEL_NAME	gps/gps_qemu.c	16;"	d	file:
+QEMU_DEBUG	qemu/qemu.c	31;"	d	file:
+QEMU_FALLBACK	qemu.h	104;"	d
+QEMU_FALLBACK	qemu.h	91;"	d
+QEMU_FALLBACK_VOID	qemu.h	105;"	d
+QEMU_FALLBACK_VOID	qemu.h	96;"	d
+QEMU_HARDWARE	Android.mk	/^  QEMU_HARDWARE := true$/;"	m
+QemuChannel	qemu.h	/^} QemuChannel;$/;"	t	typeref:struct:__anon31
+RELEASE_WAKE_LOCK	power/power.c	/^    RELEASE_WAKE_LOCK,$/;"	e	enum:__anon30	file:
+REQUEST_STATE	power/power.c	/^    REQUEST_STATE,$/;"	e	enum:__anon30	file:
+SAVE_MAKEFILES	Android.mk	/^SAVE_MAKEFILES := $(call all-subdir-makefiles)$/;"	m
+SIRF_LIB_PATH	gps/gps_marvell_sirf.c	40;"	d	file:
+SONIFICATION_HEADSET_MUSIC_DELAY	include/hardware_legacy/AudioPolicyManagerBase.h	37;"	d
+SONIFICATION_HEADSET_VOLUME_FACTOR	include/hardware_legacy/AudioPolicyManagerBase.h	32;"	d
+SONIFICATION_HEADSET_VOLUME_MIN	include/hardware_legacy/AudioPolicyManagerBase.h	34;"	d
+SSID	wificonnect.c	118;"	d	file:
+SSID_NAME	wificonnect.c	115;"	d	file:
+STATE_INIT	gps/gps_marvell_sirf.c	/^  STATE_INIT  = 1,$/;"	e	enum:__anon23	file:
+STATE_QUIT	gps/gps_marvell_sirf.c	/^  STATE_QUIT  = 0,$/;"	e	enum:__anon23	file:
+STATE_START	gps/gps_marvell_sirf.c	/^  STATE_START = 2,$/;"	e	enum:__anon23	file:
+STATE_STOP	gps/gps_marvell_sirf.c	/^  STATE_STOP  = 3$/;"	e	enum:__anon23	file:
+STRATEGY_DTMF	include/hardware_legacy/AudioPolicyManagerBase.h	/^            STRATEGY_DTMF,$/;"	e	enum:android::AudioPolicyManagerBase::routing_strategy
+STRATEGY_MEDIA	include/hardware_legacy/AudioPolicyManagerBase.h	/^            STRATEGY_MEDIA,$/;"	e	enum:android::AudioPolicyManagerBase::routing_strategy
+STRATEGY_PHONE	include/hardware_legacy/AudioPolicyManagerBase.h	/^            STRATEGY_PHONE,$/;"	e	enum:android::AudioPolicyManagerBase::routing_strategy
+STRATEGY_SONIFICATION	include/hardware_legacy/AudioPolicyManagerBase.h	/^            STRATEGY_SONIFICATION,$/;"	e	enum:android::AudioPolicyManagerBase::routing_strategy
+SUPPLICANT_NAME	wifi/mrvl8787_wifi.c	/^static const char SUPPLICANT_NAME[]     = "wpa_supplicant";$/;"	v	file:
+SUPP_CONFIG_FILE	wifi/mrvl8787_wifi.c	/^static const char SUPP_CONFIG_FILE[]    = "\/data\/misc\/wifi\/wpa_supplicant.conf";$/;"	v	file:
+SUPP_CONFIG_TEMPLATE	wifi/mrvl8787_wifi.c	/^static const char SUPP_CONFIG_TEMPLATE[]= "\/system\/etc\/wifi\/wpa_supplicant.conf";$/;"	v	file:
+SUPP_PROP_NAME	wifi/mrvl8787_wifi.c	/^static const char SUPP_PROP_NAME[]      = "init.svc.wpa_supplicant";$/;"	v	file:
+SYS_QEMU_TRACE_STATE	qemu_tracing/qemu_tracing.c	26;"	d	file:
+SYS_QEMU_TRACE_SYMBOL	qemu_tracing/qemu_tracing.c	31;"	d	file:
+SirfCallbacks	gps/gps_marvell_sirf.c	/^} SirfCallbacks;$/;"	t	typeref:struct:__anon24	file:
+StreamDescriptor	include/hardware_legacy/AudioPolicyManagerBase.h	/^            StreamDescriptor()$/;"	f	class:android::AudioPolicyManagerBase::StreamDescriptor
+StreamDescriptor	include/hardware_legacy/AudioPolicyManagerBase.h	/^        class StreamDescriptor$/;"	c	class:android::AudioPolicyManagerBase
+THE_DEVICE	vibrator/vibrator.c	24;"	d	file:
+TIMER_THREAD	gps/gps_marvell_sirf.c	38;"	d	file:
+Token	gps/gps_marvell_sirf.c	/^} Token;$/;"	t	typeref:struct:__anon19	file:
+Token	gps/gps_qemu.c	/^} Token;$/;"	t	typeref:struct:__anon25	file:
+USE_QEMU_GPS_HARDWARE	gps/Android.mk	/^USE_QEMU_GPS_HARDWARE := $(QEMU_HARDWARE)$/;"	m
+WIFI_TEST_INTERFACE	wifi/mrvl8787_wifi.c	49;"	d	file:
+_HARDWARE_GPS_H	include/hardware_legacy/gps.h	18;"	d
+_HARDWARE_GPS_NI_H	include/hardware_legacy/gps_ni.h	18;"	d
+_HARDWARE_POWER_H	include/hardware_legacy/power.h	18;"	d
+_HARDWARE_QEMU_TRACING_H	include/hardware_legacy/qemu_tracing.h	18;"	d
+_HARDWARE_UEVENT_H	include/hardware_legacy/uevent.h	18;"	d
+_HARDWARE_VIBRATOR_H	include/hardware_legacy/vibrator.h	18;"	d
+_REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_	wifi/mrvl8787_wifi.c	31;"	d	file:
+_WIFI_H	include/hardware_legacy/wifi.h	18;"	d
+_gps_state	gps/gps_marvell_sirf.c	/^static GpsState  _gps_state[1];$/;"	v	file:
+_gps_state	gps/gps_qemu.c	/^static GpsState  _gps_state[1];$/;"	v	file:
+_libs_hardware_qemu_h	qemu.h	17;"	d
+_power_qemu_h	power/power_qemu.h	17;"	d
+a2dpUsedForSonification	include/hardware_legacy/AudioPolicyManagerBase.h	/^        virtual bool a2dpUsedForSonification() const { return true; }$/;"	f	class:android::AudioPolicyManagerBase
+accuracy	include/hardware_legacy/gps.h	/^    float           accuracy;$/;"	m	struct:__anon3
+acquire_wake_lock	power/power.c	/^acquire_wake_lock(int lock, const char* id)$/;"	f
+agpsCallbacks	gps/gps_marvell_sirf.c	/^    AGpsCallbacks           agpsCallbacks;$/;"	m	struct:__anon22	file:
+agps_status_callback	include/hardware_legacy/gps.h	/^typedef void (* agps_status_callback)(AGpsStatus* status);$/;"	t
+almanac_mask	include/hardware_legacy/gps.h	/^        uint32_t    almanac_mask;$/;"	m	struct:__anon6
+altitude	include/hardware_legacy/gps.h	/^    double          altitude;$/;"	m	struct:__anon3
+android	include/hardware_legacy/AudioHardwareBase.h	/^namespace android {$/;"	n
+android	include/hardware_legacy/AudioHardwareInterface.h	/^namespace android {$/;"	n
+android	include/hardware_legacy/AudioPolicyInterface.h	/^namespace android {$/;"	n
+android	include/hardware_legacy/AudioPolicyManagerBase.h	/^namespace android {$/;"	n
+android	include/hardware_legacy/IMobileBroadbandService.h	/^namespace android {$/;"	n
+android	include/hardware_legacy/IMountService.h	/^namespace android {$/;"	n
+android	mobilebroadband/IMobileBroadbandService.cpp	/^namespace android {$/;"	n	file:
+azimuth	include/hardware_legacy/gps.h	/^    float   azimuth;$/;"	m	struct:__anon5
+bearing	include/hardware_legacy/gps.h	/^    float           bearing;$/;"	m	struct:__anon3
+callback	gps/gps_qemu.c	/^    gps_location_callback  callback;$/;"	m	struct:__anon27	file:
+callbacks	gps/gps_marvell_sirf.c	/^    GpsCallbacks            callbacks;  \/\/ callback function to report GPS data to upper layer$/;"	m	struct:__anon22	file:
+callbacks	gps/gps_qemu.c	/^    GpsCallbacks            callbacks;$/;"	m	struct:__anon29	file:
+channel	gps/gps_qemu.c	/^    QemuChannel             channel;$/;"	m	struct:__anon29	file:
+cleanup	include/hardware_legacy/gps.h	/^    void  (*cleanup)( void );$/;"	m	struct:__anon8
+clear_exported_func	gps/gps_marvell_sirf.c	/^void clear_exported_func(void)$/;"	f
+config_stage	wificonnect.c	/^int config_stage(){	$/;"	f
+connectMobileBroadband	mobilebroadband/IMobileBroadbandService.cpp	/^    virtual void connectMobileBroadband(String16 title, String16 apn,  String16 code, String16 user, String16 passwd)$/;"	f	class:android::BpMobileBroadbandService
+connect_stage	wificonnect.c	/^int connect_stage(int networkId) {$/;"	f
+control	gps/gps_qemu.c	/^    int                     control[2];$/;"	m	struct:__anon29	file:
+convert_from_hhmm	gps/gps_marvell_sirf.c	/^convert_from_hhmm( Token  tok )$/;"	f	file:
+convert_from_hhmm	gps/gps_qemu.c	/^convert_from_hhmm( Token  tok )$/;"	f	file:
+count	gps/gps_marvell_sirf.c	/^    int     count;$/;"	m	struct:__anon20	file:
+count	gps/gps_qemu.c	/^    int     count;$/;"	m	struct:__anon26	file:
+ctrl_conn	wifi/mrvl8787_wifi.c	/^static struct wpa_ctrl *ctrl_conn;$/;"	v	typeref:struct:wpa_ctrl	file:
+data_conn_closed	include/hardware_legacy/gps.h	/^    int  (*data_conn_closed)();$/;"	m	struct:__anon14
+data_conn_failed	include/hardware_legacy/gps.h	/^    int  (*data_conn_failed)();$/;"	m	struct:__anon14
+data_conn_open	include/hardware_legacy/gps.h	/^    int  (*data_conn_open)( const char* apn );$/;"	m	struct:__anon14
+default_response	include/hardware_legacy/gps_ni.h	/^   GpsUserResponseType default_response;$/;"	m	struct:__anon16
+delete_aiding_data	include/hardware_legacy/gps.h	/^    void  (*delete_aiding_data)(GpsAidingData flags);$/;"	m	struct:__anon8
+device	qemu.h	/^    char   device[32];$/;"	m	struct:__anon31
+dhcp_stage	wificonnect.c	/^int dhcp_stage(){$/;"	f
+disconnectMobileBroadband	mobilebroadband/IMobileBroadbandService.cpp	/^    virtual void disconnectMobileBroadband(String16 title)$/;"	f	class:android::BpMobileBroadbandService
+dlHandle	gps/gps_marvell_sirf.c	/^void *dlHandle = NULL;$/;"	v
+doBooleanCommand	wificonnect.c	/^static int doBooleanCommand(const char *cmd, const char *expect)$/;"	f	file:
+doCommand	wificonnect.c	/^static int doCommand(const char *cmd, char *replybuf, int replybuflen)$/;"	f	file:
+doIntCommand	wificonnect.c	/^static int doIntCommand(const char *cmd)$/;"	f	file:
+doStringCommand	wificonnect.c	/^static char* doStringCommand(const char *cmd)$/;"	f	file:
+do_dhcp_request	wifi/mrvl8787_wifi.c	/^int do_dhcp_request(int *ipaddr, int *gateway, int *mask,$/;"	f
+download_request_cb	include/hardware_legacy/gps.h	/^        gps_xtra_download_request download_request_cb;$/;"	m	struct:__anon9
+elevation	include/hardware_legacy/gps.h	/^    float   elevation;$/;"	m	struct:__anon5
+end	gps/gps_marvell_sirf.c	/^    const char*  end;$/;"	m	struct:__anon19	file:
+end	gps/gps_qemu.c	/^    const char*  end;$/;"	m	struct:__anon25	file:
+ensure_config_file_exists	wifi/mrvl8787_wifi.c	/^int ensure_config_file_exists()$/;"	f
+ephemeris_mask	include/hardware_legacy/gps.h	/^        uint32_t    ephemeris_mask;$/;"	m	struct:__anon6
+epoll_deregister	gps/gps_qemu.c	/^epoll_deregister( int  epoll_fd, int  fd )$/;"	f	file:
+epoll_register	gps/gps_qemu.c	/^epoll_register( int  epoll_fd, int  fd )$/;"	f	file:
+extras	include/hardware_legacy/gps_ni.h	/^   char           extras[GPS_NI_LONG_STRING_MAXLEN];$/;"	m	struct:__anon16
+fd	gps/gps_qemu.c	/^    int                     fd;$/;"	m	struct:__anon29	file:
+fd	qemu.h	/^    int    fd;$/;"	m	struct:__anon31
+fd	uevent/uevent.c	/^static int fd = -1;$/;"	v	file:
+first_fix	gps/gps_marvell_sirf.c	/^    int                     first_fix;$/;"	m	struct:__anon22	file:
+fix	gps/gps_marvell_sirf.c	/^    GpsLocation  fix;$/;"	m	struct:__anon21	file:
+fix	gps/gps_qemu.c	/^    GpsLocation  fix;$/;"	m	struct:__anon27	file:
+fix_freq	gps/gps_marvell_sirf.c	/^    int                     fix_freq;$/;"	m	struct:__anon22	file:
+fix_sem	gps/gps_marvell_sirf.c	/^    sem_t                   fix_sem;$/;"	m	struct:__anon22	file:
+flags	include/hardware_legacy/gps.h	/^    uint16_t        flags;$/;"	m	struct:__anon3
+frameSize	include/hardware_legacy/AudioHardwareInterface.h	/^    uint32_t    frameSize() const { return AudioSystem::popCount(channels())*((format()==AudioSystem::PCM_16_BIT)?sizeof(int16_t):sizeof(int8_t)); }$/;"	f	class:android::AudioStreamIn
+frameSize	include/hardware_legacy/AudioHardwareInterface.h	/^    uint32_t    frameSize() const { return AudioSystem::popCount(channels())*((format()==AudioSystem::PCM_16_BIT)?sizeof(int16_t):sizeof(int8_t)); }$/;"	f	class:android::AudioStreamOut
+g_error	power/power.c	/^static int g_error = 1;$/;"	v	file:
+g_fds	power/power.c	/^static int g_fds[OUR_FD_COUNT];$/;"	v	file:
+g_initialized	power/power.c	/^static int g_initialized = 0;$/;"	v	file:
+getMobileBroadbandConnected	mobilebroadband/IMobileBroadbandService.cpp	/^    virtual bool getMobileBroadbandConnected(String16 title)$/;"	f	class:android::BpMobileBroadbandService
+get_dhcp_error_string	wifi/mrvl8787_wifi.c	/^const char *get_dhcp_error_string() {$/;"	f
+get_export_func	gps/gps_marvell_sirf.c	/^int get_export_func(void)$/;"	f
+get_extension	include/hardware_legacy/gps.h	/^    const void* (*get_extension)(const char* name);$/;"	m	struct:__anon8
+get_internal_state	include/hardware_legacy/gps.h	/^    size_t (*get_internal_state)(char* buffer, size_t bufferSize);$/;"	m	struct:__anon11
+gpsNiCallbacks	gps/gps_marvell_sirf.c	/^    GpsNiCallbacks          gpsNiCallbacks;$/;"	m	struct:__anon22	file:
+gps_find_hardware	gps/gps.cpp	/^gps_find_hardware( void )$/;"	f	file:
+gps_get_hardware_interface	gps/gps_marvell_sirf.c	/^const GpsInterface* gps_get_hardware_interface()$/;"	f
+gps_get_interface	gps/gps.cpp	/^gps_get_interface()$/;"	f
+gps_get_qemu_interface	gps/gps_qemu.c	/^const GpsInterface* gps_get_qemu_interface()$/;"	f
+gps_location_callback	include/hardware_legacy/gps.h	/^typedef void (* gps_location_callback)(GpsLocation* location);$/;"	t
+gps_ni_notify_callback	include/hardware_legacy/gps_ni.h	/^typedef void (*gps_ni_notify_callback)(GpsNiNotification *notification);$/;"	t
+gps_nmea_callback	include/hardware_legacy/gps.h	/^typedef void (* gps_nmea_callback)(GpsUtcTime timestamp, const char* nmea, int length);$/;"	t
+gps_nmea_data_process	gps/gps_marvell_sirf.c	/^void gps_nmea_data_process(char *msg, int msgLen)$/;"	f
+gps_report_data	gps/gps_marvell_sirf.c	/^gps_report_data(GpsState *state)$/;"	f	file:
+gps_set_gprs_interface	gps/gps_marvell_sirf.c	/^static void gps_set_gprs_interface(void)$/;"	f	file:
+gps_state	gps/gps_marvell_sirf.c	/^static GpsState *gps_state = _gps_state;$/;"	v	file:
+gps_state_done	gps/gps_marvell_sirf.c	/^gps_state_done( GpsState*  state )$/;"	f	file:
+gps_state_done	gps/gps_qemu.c	/^gps_state_done( GpsState*  s )$/;"	f	file:
+gps_state_init	gps/gps_marvell_sirf.c	/^gps_state_init( GpsState*  state )$/;"	f	file:
+gps_state_init	gps/gps_qemu.c	/^gps_state_init( GpsState*  state )$/;"	f	file:
+gps_state_start	gps/gps_marvell_sirf.c	/^gps_state_start( GpsState*  state )$/;"	f	file:
+gps_state_start	gps/gps_qemu.c	/^gps_state_start( GpsState*  s )$/;"	f	file:
+gps_state_stop	gps/gps_marvell_sirf.c	/^gps_state_stop( GpsState*  state )$/;"	f	file:
+gps_state_stop	gps/gps_qemu.c	/^gps_state_stop( GpsState*  s )$/;"	f	file:
+gps_state_thread	gps/gps_qemu.c	/^gps_state_thread( void*  arg )$/;"	f	file:
+gps_status_callback	include/hardware_legacy/gps.h	/^typedef void (* gps_status_callback)(GpsStatus* status);$/;"	t
+gps_sv_status_callback	include/hardware_legacy/gps.h	/^typedef void (* gps_sv_status_callback)(GpsSvStatus* sv_info);$/;"	t
+gps_timer_thread	gps/gps_marvell_sirf.c	/^gps_timer_thread( void*  arg )$/;"	f	file:
+gps_xtra_download_request	include/hardware_legacy/gps.h	/^typedef void (* gps_xtra_download_request)();$/;"	t
+hasBackMicrophone	include/hardware_legacy/AudioPolicyManagerBase.h	/^        virtual bool hasBackMicrophone() const { return false; }$/;"	f	class:android::AudioPolicyManagerBase
+iface	wifi/mrvl8787_wifi.c	/^static char iface[PROPERTY_VALUE_MAX];$/;"	v	file:
+in	gps/gps_marvell_sirf.c	/^    char    in[ NMEA_MAX_SIZE+1 ];$/;"	m	struct:__anon21	file:
+in	gps/gps_qemu.c	/^    char    in[ NMEA_MAX_SIZE+1 ];$/;"	m	struct:__anon27	file:
+init	gps/gps_marvell_sirf.c	/^    int                     init;$/;"	m	struct:__anon22	file:
+init	gps/gps_qemu.c	/^    int                     init;$/;"	m	struct:__anon29	file:
+init	include/hardware_legacy/gps.h	/^    int   (*init)( GpsCallbacks* callbacks );$/;"	m	struct:__anon8
+init	include/hardware_legacy/gps.h	/^    int  (*init)( GpsXtraCallbacks* callbacks );$/;"	m	struct:__anon10
+init	include/hardware_legacy/gps.h	/^    void  (*init)( AGpsCallbacks* callbacks );$/;"	m	struct:__anon14
+init	include/hardware_legacy/gps_ni.h	/^   void (*init) (GpsNiCallbacks *callbacks);$/;"	m	struct:__anon18
+init_stage	wificonnect.c	/^int init_stage() {$/;"	f
+initialize_fds	power/power.c	/^initialize_fds(void)$/;"	f	file:
+inject_location	include/hardware_legacy/gps.h	/^    int  (*inject_location)(double latitude, double longitude, float accuracy);$/;"	m	struct:__anon8
+inject_time	include/hardware_legacy/gps.h	/^    int   (*inject_time)(GpsUtcTime time, int64_t timeReference,$/;"	m	struct:__anon8
+inject_xtra_data	include/hardware_legacy/gps.h	/^    int  (*inject_xtra_data)( char* data, int length );$/;"	m	struct:__anon10
+isDuplicated	include/hardware_legacy/AudioPolicyManagerBase.h	/^            bool isDuplicated() { return (mOutput1 != NULL && mOutput2 != NULL); }$/;"	f	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+isUsedByStrategy	include/hardware_legacy/AudioPolicyManagerBase.h	/^            bool isUsedByStrategy(routing_strategy strategy) { return (strategyRefCount(strategy) != 0);}$/;"	f	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+is_available	qemu.h	/^    char   is_available;$/;"	m	struct:__anon31
+is_inited	qemu.h	/^    char   is_inited;$/;"	m	struct:__anon31
+is_qemud	qemu.h	/^    char   is_qemud;$/;"	m	struct:__anon31
+is_qemud_old	qemu.h	/^    char   is_qemud_old;$/;"	m	struct:__anon31
+is_tty	qemu.h	/^    char   is_tty;$/;"	m	struct:__anon31
+latitude	include/hardware_legacy/gps.h	/^    double          latitude;$/;"	m	struct:__anon3
+location_callback	tests/gpstest/gpstest.cpp	/^static void location_callback(GpsLocation* location)$/;"	f	file:
+location_cb	include/hardware_legacy/gps.h	/^        gps_location_callback location_cb;$/;"	m	struct:__anon7
+longitude	include/hardware_legacy/gps.h	/^    double          longitude;$/;"	m	struct:__anon3
+mA2dpDeviceAddress	include/hardware_legacy/AudioPolicyManagerBase.h	/^        String8 mA2dpDeviceAddress;                                         \/\/ A2DP device MAC address$/;"	m	class:android::AudioPolicyManagerBase
+mA2dpOutput	include/hardware_legacy/AudioPolicyManagerBase.h	/^        audio_io_handle_t mA2dpOutput;                  \/\/ A2DP output handler$/;"	m	class:android::AudioPolicyManagerBase
+mAcoustics	include/hardware_legacy/AudioPolicyManagerBase.h	/^            AudioSystem::audio_in_acoustics mAcoustics; \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mAvailableInputDevices	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t mAvailableInputDevices;                                    \/\/ bit field of all available input devices$/;"	m	class:android::AudioPolicyManagerBase
+mAvailableOutputDevices	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t mAvailableOutputDevices;                                   \/\/ bit field of all available output devices$/;"	m	class:android::AudioPolicyManagerBase
+mCanBeMuted	include/hardware_legacy/AudioPolicyManagerBase.h	/^            bool mCanBeMuted;   \/\/ true is the stream can be muted$/;"	m	class:android::AudioPolicyManagerBase::StreamDescriptor
+mChannels	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mChannels;                         \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mChannels	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mChannels;                 \/\/ output configuration$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mCurOutput	include/hardware_legacy/AudioPolicyManagerBase.h	/^        int             mCurOutput;$/;"	m	class:android::AudioPolicyManagerBase
+mCurVolume	include/hardware_legacy/AudioPolicyManagerBase.h	/^            float mCurVolume[AudioSystem::NUM_STREAM_TYPES];   \/\/ current stream volume$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mDevice	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mDevice;                           \/\/ current device this input is routed to$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mDevice	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mDevice;                   \/\/ current device this output is routed to$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mDeviceForStrategy	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t mDeviceForStrategy[NUM_STRATEGIES];$/;"	m	class:android::AudioPolicyManagerBase
+mDirectOutput	include/hardware_legacy/AudioPolicyManagerBase.h	/^        bool            mDirectOutput;$/;"	m	class:android::AudioPolicyManagerBase
+mDuplicatedOutput	include/hardware_legacy/AudioPolicyManagerBase.h	/^        audio_io_handle_t mDuplicatedOutput;            \/\/ duplicated output handler: outputs to hardware and A2DP.$/;"	m	class:android::AudioPolicyManagerBase
+mFlags	include/hardware_legacy/AudioPolicyManagerBase.h	/^            AudioSystem::output_flags mFlags;   \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mForceUse	include/hardware_legacy/AudioPolicyManagerBase.h	/^        AudioSystem::forced_config mForceUse[AudioSystem::NUM_FORCE_USE];   \/\/ current forced use configuration$/;"	m	class:android::AudioPolicyManagerBase
+mFormat	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mFormat;                           \/\/ input configuration$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mFormat	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mFormat;                   \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mHardwareOutput	include/hardware_legacy/AudioPolicyManagerBase.h	/^        audio_io_handle_t mHardwareOutput;              \/\/ hardware output handler$/;"	m	class:android::AudioPolicyManagerBase
+mId	include/hardware_legacy/AudioPolicyManagerBase.h	/^            audio_io_handle_t mId;              \/\/ output handle$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mIndexCur	include/hardware_legacy/AudioPolicyManagerBase.h	/^            int mIndexCur;      \/\/ current volume index$/;"	m	class:android::AudioPolicyManagerBase::StreamDescriptor
+mIndexMax	include/hardware_legacy/AudioPolicyManagerBase.h	/^            int mIndexMax;      \/\/ max volume index$/;"	m	class:android::AudioPolicyManagerBase::StreamDescriptor
+mIndexMin	include/hardware_legacy/AudioPolicyManagerBase.h	/^            int mIndexMin;      \/\/ min volume index$/;"	m	class:android::AudioPolicyManagerBase::StreamDescriptor
+mInputSource	include/hardware_legacy/AudioPolicyManagerBase.h	/^            int      mInputSource;                     \/\/ input source selected by application (mediarecorder.h)$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mInputs	include/hardware_legacy/AudioPolicyManagerBase.h	/^        KeyedVector<audio_io_handle_t, AudioInputDescriptor *> mInputs;     \/\/ list of input descriptors$/;"	m	class:android::AudioPolicyManagerBase
+mLatency	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mLatency;                  \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mLimitRingtoneVolume	include/hardware_legacy/AudioPolicyManagerBase.h	/^        bool    mLimitRingtoneVolume;                                       \/\/ limit ringtone volume to music volume if headset connected$/;"	m	class:android::AudioPolicyManagerBase
+mLock	include/hardware_legacy/AudioPolicyManagerBase.h	/^        Mutex   mLock;$/;"	m	class:android::AudioPolicyManagerBase
+mMode	include/hardware_legacy/AudioHardwareBase.h	/^    int             mMode;$/;"	m	class:android::AudioHardwareBase
+mMusicStopTime	include/hardware_legacy/AudioPolicyManagerBase.h	/^        nsecs_t mMusicStopTime;                                             \/\/ time when last music stream was stopped$/;"	m	class:android::AudioPolicyManagerBase
+mMuteCount	include/hardware_legacy/AudioPolicyManagerBase.h	/^            int mMuteCount[AudioSystem::NUM_STREAM_TYPES];     \/\/ mute request counter$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mOutput1	include/hardware_legacy/AudioPolicyManagerBase.h	/^            AudioOutputDescriptor *mOutput1;    \/\/ used by duplicated outputs: first output$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mOutput2	include/hardware_legacy/AudioPolicyManagerBase.h	/^            AudioOutputDescriptor *mOutput2;    \/\/ used by duplicated outputs: second output$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mOutputs	include/hardware_legacy/AudioPolicyManagerBase.h	/^        KeyedVector<audio_io_handle_t, AudioOutputDescriptor *> mOutputs;   \/\/ list of output descriptors$/;"	m	class:android::AudioPolicyManagerBase
+mPhoneState	include/hardware_legacy/AudioPolicyManagerBase.h	/^        int mPhoneState;                                                    \/\/ current phone state$/;"	m	class:android::AudioPolicyManagerBase
+mRefCount	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mRefCount;                         \/\/ number of AudioRecord clients using this output$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mRefCount	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mRefCount[AudioSystem::NUM_STREAM_TYPES]; \/\/ number of streams of each type using this output$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mRingerMode	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t                 mRingerMode;                               \/\/ current ringer mode$/;"	m	class:android::AudioPolicyManagerBase
+mSamplingRate	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mSamplingRate;                     \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioInputDescriptor
+mSamplingRate	include/hardware_legacy/AudioPolicyManagerBase.h	/^            uint32_t mSamplingRate;             \/\/$/;"	m	class:android::AudioPolicyManagerBase::AudioOutputDescriptor
+mScoDeviceAddress	include/hardware_legacy/AudioPolicyManagerBase.h	/^        String8 mScoDeviceAddress;                                          \/\/ SCO device MAC address$/;"	m	class:android::AudioPolicyManagerBase
+mStreams	include/hardware_legacy/AudioPolicyManagerBase.h	/^        StreamDescriptor mStreams[AudioSystem::NUM_STREAM_TYPES];           \/\/ stream descriptors for volume control$/;"	m	class:android::AudioPolicyManagerBase
+mTestChannels	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t        mTestChannels;$/;"	m	class:android::AudioPolicyManagerBase
+mTestDevice	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t        mTestDevice;$/;"	m	class:android::AudioPolicyManagerBase
+mTestFormat	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t        mTestFormat;$/;"	m	class:android::AudioPolicyManagerBase
+mTestInput	include/hardware_legacy/AudioPolicyManagerBase.h	/^        int             mTestInput;$/;"	m	class:android::AudioPolicyManagerBase
+mTestLatencyMs	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t        mTestLatencyMs;$/;"	m	class:android::AudioPolicyManagerBase
+mTestOutputs	include/hardware_legacy/AudioPolicyManagerBase.h	/^        audio_io_handle_t mTestOutputs[NUM_TEST_OUTPUTS];$/;"	m	class:android::AudioPolicyManagerBase
+mTestSamplingRate	include/hardware_legacy/AudioPolicyManagerBase.h	/^        uint32_t        mTestSamplingRate;$/;"	m	class:android::AudioPolicyManagerBase
+mWaitWorkCV	include/hardware_legacy/AudioPolicyManagerBase.h	/^        Condition mWaitWorkCV;$/;"	m	class:android::AudioPolicyManagerBase
+main	tests/gpstest/gpstest.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	wificonnect.c	/^int main(int argc, char *argv[])$/;"	f
+marvellGpsInterface	gps/gps_marvell_sirf.c	/^static const GpsInterface  marvellGpsInterface = {$/;"	v	file:
+marvell_agps_data_conn_closed	gps/gps_marvell_sirf.c	/^static int  marvell_agps_data_conn_closed(void)$/;"	f	file:
+marvell_agps_data_conn_failed	gps/gps_marvell_sirf.c	/^static int  marvell_agps_data_conn_failed(void)$/;"	f	file:
+marvell_agps_data_conn_open	gps/gps_marvell_sirf.c	/^static int  marvell_agps_data_conn_open( const char* apn )$/;"	f	file:
+marvell_agps_init	gps/gps_marvell_sirf.c	/^static void  marvell_agps_init( AGpsCallbacks* callbacks )$/;"	f	file:
+marvell_agps_set_server	gps/gps_marvell_sirf.c	/^static int  marvell_agps_set_server( AGpsType type, const char* hostname, int port )$/;"	f	file:
+marvell_gps_cleanup	gps/gps_marvell_sirf.c	/^marvell_gps_cleanup(void)$/;"	f	file:
+marvell_gps_delete_aiding_data	gps/gps_marvell_sirf.c	/^marvell_gps_delete_aiding_data(GpsAidingData flags)$/;"	f	file:
+marvell_gps_get_extension	gps/gps_marvell_sirf.c	/^marvell_gps_get_extension(const char* name)$/;"	f	file:
+marvell_gps_init	gps/gps_marvell_sirf.c	/^marvell_gps_init(GpsCallbacks* callbacks)$/;"	f	file:
+marvell_gps_inject_location	gps/gps_marvell_sirf.c	/^marvell_gps_inject_location(double latitude, double longitude, float accuracy)$/;"	f	file:
+marvell_gps_inject_time	gps/gps_marvell_sirf.c	/^marvell_gps_inject_time(GpsUtcTime time, int64_t timeReference, int uncertainty)$/;"	f	file:
+marvell_gps_set_position_mode	gps/gps_marvell_sirf.c	/^static int marvell_gps_set_position_mode(GpsPositionMode mode, int fix_frequency)$/;"	f	file:
+marvell_gps_start	gps/gps_marvell_sirf.c	/^marvell_gps_start()$/;"	f	file:
+marvell_gps_stop	gps/gps_marvell_sirf.c	/^marvell_gps_stop()$/;"	f	file:
+monitor_conn	wifi/mrvl8787_wifi.c	/^static struct wpa_ctrl *monitor_conn;$/;"	v	typeref:struct:wpa_ctrl	file:
+mpClientInterface	include/hardware_legacy/AudioPolicyManagerBase.h	/^        AudioPolicyClientInterface *mpClientInterface;  \/\/ audio policy client interface$/;"	m	class:android::AudioPolicyManagerBase
+ni_type	include/hardware_legacy/gps_ni.h	/^   GpsNiType       ni_type;$/;"	m	struct:__anon16
+nmea_cb	gps/gps_marvell_sirf.c	/^        sirf_nmea_callback nmea_cb;$/;"	m	struct:__anon24	file:
+nmea_cb	include/hardware_legacy/gps.h	/^        gps_nmea_callback nmea_cb;$/;"	m	struct:__anon7
+nmea_reader_addc	gps/gps_qemu.c	/^nmea_reader_addc( NmeaReader*  r, int  c )$/;"	f	file:
+nmea_reader_init	gps/gps_marvell_sirf.c	/^nmea_reader_init( NmeaReader*  r )$/;"	f	file:
+nmea_reader_init	gps/gps_qemu.c	/^nmea_reader_init( NmeaReader*  r )$/;"	f	file:
+nmea_reader_parse	gps/gps_marvell_sirf.c	/^nmea_reader_parse( NmeaReader*  r )$/;"	f	file:
+nmea_reader_parse	gps/gps_qemu.c	/^nmea_reader_parse( NmeaReader*  r )$/;"	f	file:
+nmea_reader_set_callback	gps/gps_qemu.c	/^nmea_reader_set_callback( NmeaReader*  r, gps_location_callback  cb )$/;"	f	file:
+nmea_reader_update_accuracy	gps/gps_marvell_sirf.c	/^nmea_reader_update_accuracy( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_altitude	gps/gps_marvell_sirf.c	/^nmea_reader_update_altitude( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_altitude	gps/gps_qemu.c	/^nmea_reader_update_altitude( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_bearing	gps/gps_marvell_sirf.c	/^nmea_reader_update_bearing( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_bearing	gps/gps_qemu.c	/^nmea_reader_update_bearing( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_cdate	gps/gps_marvell_sirf.c	/^nmea_reader_update_cdate( NmeaReader*  r, Token  tok_d, Token tok_m, Token tok_y )$/;"	f	file:
+nmea_reader_update_date	gps/gps_marvell_sirf.c	/^nmea_reader_update_date( NmeaReader*  r, Token  date, Token  time )$/;"	f	file:
+nmea_reader_update_date	gps/gps_qemu.c	/^nmea_reader_update_date( NmeaReader*  r, Token  date, Token  time )$/;"	f	file:
+nmea_reader_update_latlong	gps/gps_marvell_sirf.c	/^nmea_reader_update_latlong( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_latlong	gps/gps_qemu.c	/^nmea_reader_update_latlong( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_speed	gps/gps_marvell_sirf.c	/^nmea_reader_update_speed( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_speed	gps/gps_qemu.c	/^nmea_reader_update_speed( NmeaReader*  r,$/;"	f	file:
+nmea_reader_update_time	gps/gps_marvell_sirf.c	/^nmea_reader_update_time( NmeaReader*  r, Token  tok )$/;"	f	file:
+nmea_reader_update_time	gps/gps_qemu.c	/^nmea_reader_update_time( NmeaReader*  r, Token  tok )$/;"	f	file:
+nmea_reader_update_utc_diff	gps/gps_marvell_sirf.c	/^nmea_reader_update_utc_diff( NmeaReader*  r )$/;"	f	file:
+nmea_reader_update_utc_diff	gps/gps_qemu.c	/^nmea_reader_update_utc_diff( NmeaReader*  r )$/;"	f	file:
+nmea_tokenizer_get	gps/gps_marvell_sirf.c	/^nmea_tokenizer_get( NmeaTokenizer*  t, int  index )$/;"	f	file:
+nmea_tokenizer_get	gps/gps_qemu.c	/^nmea_tokenizer_get( NmeaTokenizer*  t, int  index )$/;"	f	file:
+nmea_tokenizer_init	gps/gps_marvell_sirf.c	/^nmea_tokenizer_init( NmeaTokenizer*  t, const char*  p, const char*  end )$/;"	f	file:
+nmea_tokenizer_init	gps/gps_qemu.c	/^nmea_tokenizer_init( NmeaTokenizer*  t, const char*  p, const char*  end )$/;"	f	file:
+notification_id	include/hardware_legacy/gps_ni.h	/^   int             notification_id;$/;"	m	struct:__anon16
+notify_cb	include/hardware_legacy/gps_ni.h	/^   gps_ni_notify_callback notify_cb;$/;"	m	struct:__anon17
+notify_flags	include/hardware_legacy/gps_ni.h	/^   GpsNiNotifyFlags notify_flags;$/;"	m	struct:__anon16
+num_svs	include/hardware_legacy/gps.h	/^        int         num_svs;$/;"	m	struct:__anon6
+off_state	power/power.c	/^static const char *off_state = "mem";$/;"	v	file:
+on_state	power/power.c	/^static const char *on_state = "on";$/;"	v	file:
+open_file_descriptors	power/power.c	/^open_file_descriptors(const char * const paths[])$/;"	f	file:
+overflow	gps/gps_marvell_sirf.c	/^    int     overflow;$/;"	m	struct:__anon21	file:
+overflow	gps/gps_qemu.c	/^    int     overflow;$/;"	m	struct:__anon27	file:
+p	gps/gps_marvell_sirf.c	/^    const char*  p;$/;"	m	struct:__anon19	file:
+p	gps/gps_qemu.c	/^    const char*  p;$/;"	m	struct:__anon25	file:
+pos	gps/gps_marvell_sirf.c	/^    int     pos;$/;"	m	struct:__anon21	file:
+pos	gps/gps_qemu.c	/^    int     pos;$/;"	m	struct:__anon27	file:
+prn	include/hardware_legacy/gps.h	/^    int     prn;$/;"	m	struct:__anon5
+qemuGpsInterface	gps/gps_qemu.c	/^static const GpsInterface  qemuGpsInterface = {$/;"	v	file:
+qemu_add_mapping	qemu_tracing/qemu_tracing.c	/^int qemu_add_mapping(unsigned int addr, const char *name)$/;"	f
+qemu_channel_open	qemu/qemu.c	/^qemu_channel_open( QemuChannel*  channel,$/;"	f
+qemu_channel_open_qemud	qemu/qemu.c	/^qemu_channel_open_qemud( QemuChannel*  channel,$/;"	f	file:
+qemu_channel_open_qemud_old	qemu/qemu.c	/^qemu_channel_open_qemud_old( QemuChannel*  channel,$/;"	f	file:
+qemu_channel_open_tty	qemu/qemu.c	/^qemu_channel_open_tty( QemuChannel*  channel,$/;"	f	file:
+qemu_check	qemu/qemu.c	/^qemu_check(void)$/;"	f
+qemu_command_format	qemu/qemu.c	/^qemu_command_format( char*        buffer, $/;"	f
+qemu_command_vformat	qemu/qemu.c	/^qemu_command_vformat( char*        buffer, $/;"	f	file:
+qemu_control_command	qemu/qemu.c	/^qemu_control_command( const char*  fmt, ... )$/;"	f
+qemu_control_fd	qemu/qemu.c	/^qemu_control_fd(void)$/;"	f	file:
+qemu_control_query	qemu/qemu.c	/^extern int  qemu_control_query( const char*  question, int  questionlen,$/;"	f
+qemu_control_send	qemu/qemu.c	/^qemu_control_send(const char*  cmd, int  len)$/;"	f	file:
+qemu_fd_read	qemu/qemu.c	/^qemu_fd_read( int  fd, char*  buff, int  len )$/;"	f	file:
+qemu_fd_write	qemu/qemu.c	/^qemu_fd_write( int  fd, const char*  cmd, int  len )$/;"	f	file:
+qemu_gps_cleanup	gps/gps_qemu.c	/^qemu_gps_cleanup(void)$/;"	f	file:
+qemu_gps_delete_aiding_data	gps/gps_qemu.c	/^qemu_gps_delete_aiding_data(GpsAidingData flags)$/;"	f	file:
+qemu_gps_get_extension	gps/gps_qemu.c	/^qemu_gps_get_extension(const char* name)$/;"	f	file:
+qemu_gps_init	gps/gps_qemu.c	/^qemu_gps_init(GpsCallbacks* callbacks)$/;"	f	file:
+qemu_gps_inject_location	gps/gps_qemu.c	/^qemu_gps_inject_location(double latitude, double longitude, float accuracy)$/;"	f	file:
+qemu_gps_inject_time	gps/gps_qemu.c	/^qemu_gps_inject_time(GpsUtcTime time, int64_t timeReference, int uncertainty)$/;"	f	file:
+qemu_gps_set_position_mode	gps/gps_qemu.c	/^static int qemu_gps_set_position_mode(GpsPositionMode mode, int fix_frequency)$/;"	f	file:
+qemu_gps_start	gps/gps_qemu.c	/^qemu_gps_start()$/;"	f	file:
+qemu_gps_stop	gps/gps_qemu.c	/^qemu_gps_stop()$/;"	f	file:
+qemu_remove_mapping	qemu_tracing/qemu_tracing.c	/^int qemu_remove_mapping(unsigned int addr)$/;"	f
+qemu_set_screen_state	power/power_qemu.c	/^qemu_set_screen_state(int on)$/;"	f
+qemu_start_tracing	qemu_tracing/qemu_tracing.c	/^int qemu_start_tracing()$/;"	f
+qemu_stop_tracing	qemu_tracing/qemu_tracing.c	/^int qemu_stop_tracing()$/;"	f
+reader	gps/gps_marvell_sirf.c	/^    NmeaReader              reader;$/;"	m	struct:__anon22	file:
+release_wake_lock	power/power.c	/^release_wake_lock(const char* id)$/;"	f
+requestor_id	include/hardware_legacy/gps_ni.h	/^   char            requestor_id[GPS_NI_SHORT_STRING_MAXLEN];$/;"	m	struct:__anon16
+requestor_id_encoding	include/hardware_legacy/gps_ni.h	/^   GpsNiEncodingType requestor_id_encoding;$/;"	m	struct:__anon16
+respond	include/hardware_legacy/gps_ni.h	/^   void (*respond) (int notif_id, GpsUserResponseType user_response);$/;"	m	struct:__anon18
+routing_strategy	include/hardware_legacy/AudioPolicyManagerBase.h	/^        enum routing_strategy {$/;"	g	class:android::AudioPolicyManagerBase
+sCallbacks	gps/gps_marvell_sirf.c	/^SirfCallbacks sCallbacks = {$/;"	v
+sCallbacks	tests/gpstest/gpstest.cpp	/^GpsCallbacks sCallbacks = {$/;"	v
+sDone	tests/gpstest/gpstest.cpp	/^static bool sDone = false;$/;"	v	file:
+sFixes	tests/gpstest/gpstest.cpp	/^static int sFixes = 0;$/;"	v	file:
+sGpsInterface	gps/gps.cpp	/^static const GpsInterface*  sGpsInterface = NULL;$/;"	v	file:
+sGpsInterface	tests/gpstest/gpstest.cpp	/^static const GpsInterface* sGpsInterface = NULL;$/;"	v	file:
+sMaxFixes	tests/gpstest/gpstest.cpp	/^static int sMaxFixes = 0;$/;"	v	file:
+sStatus	tests/gpstest/gpstest.cpp	/^static int sStatus = GPS_STATUS_ENGINE_OFF;$/;"	v	file:
+scan_stage	wificonnect.c	/^int scan_stage(){$/;"	f
+sendit	vibrator/vibrator.c	/^static int sendit(int timeout_ms)$/;"	f	file:
+set_last_user_activity_timeout	power/power.c	/^set_last_user_activity_timeout(int64_t delay)$/;"	f
+set_position_mode	include/hardware_legacy/gps.h	/^    int   (*set_position_mode)(GpsPositionMode mode, int fix_frequency);$/;"	m	struct:__anon8
+set_privacy_lock	include/hardware_legacy/gps.h	/^    void  (*set_privacy_lock)( int enable_lock );$/;"	m	struct:__anon15
+set_screen_state	power/power.c	/^set_screen_state(int on)$/;"	f
+set_server	include/hardware_legacy/gps.h	/^    int  (*set_server)( AGpsType type, const char* hostname, int port );$/;"	m	struct:__anon14
+sirf_agps_init	gps/gps_marvell_sirf.c	/^void (*sirf_agps_init)( AGpsCallbacks* callbacks);$/;"	v
+sirf_agps_set_server	gps/gps_marvell_sirf.c	/^int  (*sirf_agps_set_server)( AGpsType type, const char* hostname, int port);$/;"	v
+sirf_gps_cleanup	gps/gps_marvell_sirf.c	/^void (*sirf_gps_cleanup)(void);$/;"	v
+sirf_gps_delete_aiding_data	gps/gps_marvell_sirf.c	/^void (*sirf_gps_delete_aiding_data)(GpsAidingData flags);$/;"	v
+sirf_gps_init	gps/gps_marvell_sirf.c	/^int (*sirf_gps_init)(GpsCallbacks *cb);$/;"	v
+sirf_gps_ni_init	gps/gps_marvell_sirf.c	/^void (*sirf_gps_ni_init)(GpsNiCallbacks *callbacks);$/;"	v
+sirf_gps_ni_respond	gps/gps_marvell_sirf.c	/^void (*sirf_gps_ni_respond)(int notif_id, GpsUserResponseType user_response);$/;"	v
+sirf_gps_set_gprs_interface	gps/gps_marvell_sirf.c	/^void (*sirf_gps_set_gprs_interface)(char *gprs_interface);$/;"	v
+sirf_gps_set_position_mode	gps/gps_marvell_sirf.c	/^int  (*sirf_gps_set_position_mode)(GpsPositionMode mode, int fix_frequency);$/;"	v
+sirf_gps_start	gps/gps_marvell_sirf.c	/^int (*sirf_gps_start)(void);$/;"	v
+sirf_gps_stop	gps/gps_marvell_sirf.c	/^int (*sirf_gps_stop)(void);$/;"	v
+sirf_nmea_callback	gps/gps_marvell_sirf.c	/^typedef void (* sirf_nmea_callback)(char *msg, int msgLen);$/;"	t	file:
+snr	include/hardware_legacy/gps.h	/^    float   snr;$/;"	m	struct:__anon5
+speed	include/hardware_legacy/gps.h	/^    float           speed;$/;"	m	struct:__anon3
+start	include/hardware_legacy/gps.h	/^    int   (*start)( void );$/;"	m	struct:__anon8
+status	include/hardware_legacy/gps.h	/^    AGpsStatusValue status;$/;"	m	struct:__anon12
+status	include/hardware_legacy/gps.h	/^    GpsStatusValue status;$/;"	m	struct:__anon4
+status_callback	tests/gpstest/gpstest.cpp	/^static void status_callback(GpsStatus* status)$/;"	f	file:
+status_cb	include/hardware_legacy/gps.h	/^        agps_status_callback status_cb;$/;"	m	struct:__anon13
+status_cb	include/hardware_legacy/gps.h	/^        gps_status_callback status_cb;$/;"	m	struct:__anon7
+stop	include/hardware_legacy/gps.h	/^    int   (*stop)( void );$/;"	m	struct:__anon8
+str2float	gps/gps_marvell_sirf.c	/^str2float( const char*  p, const char*  end )$/;"	f	file:
+str2float	gps/gps_qemu.c	/^str2float( const char*  p, const char*  end )$/;"	f	file:
+str2int	gps/gps_marvell_sirf.c	/^str2int( const char*  p, const char*  end )$/;"	f	file:
+str2int	gps/gps_qemu.c	/^str2int( const char*  p, const char*  end )$/;"	f	file:
+sv_list	include/hardware_legacy/gps.h	/^        GpsSvInfo   sv_list[GPS_MAX_SVS];$/;"	m	struct:__anon6
+sv_status	gps/gps_marvell_sirf.c	/^    GpsSvStatus  sv_status;$/;"	m	struct:__anon21	file:
+sv_status_callback	tests/gpstest/gpstest.cpp	/^static void sv_status_callback(GpsSvStatus* sv_status)$/;"	f	file:
+sv_status_cb	include/hardware_legacy/gps.h	/^        gps_sv_status_callback sv_status_cb;$/;"	m	struct:__anon7
+sv_status_changed	gps/gps_marvell_sirf.c	/^    int     sv_status_changed;$/;"	m	struct:__anon21	file:
+systemTime	power/power.c	/^static int64_t systemTime()$/;"	f	file:
+text	include/hardware_legacy/gps_ni.h	/^   char            text[GPS_NI_LONG_STRING_MAXLEN];$/;"	m	struct:__anon16
+text_encoding	include/hardware_legacy/gps_ni.h	/^   GpsNiEncodingType text_encoding;$/;"	m	struct:__anon16
+thread	gps/gps_qemu.c	/^    pthread_t               thread;$/;"	m	struct:__anon29	file:
+timeout	include/hardware_legacy/gps_ni.h	/^   int             timeout;$/;"	m	struct:__anon16
+timestamp	include/hardware_legacy/gps.h	/^    GpsUtcTime      timestamp;$/;"	m	struct:__anon3
+tmr_thread	gps/gps_marvell_sirf.c	/^    pthread_t               tmr_thread;$/;"	m	struct:__anon22	file:
+tokens	gps/gps_marvell_sirf.c	/^    Token   tokens[ MAX_NMEA_TOKENS ];$/;"	m	struct:__anon20	file:
+tokens	gps/gps_qemu.c	/^    Token   tokens[ MAX_NMEA_TOKENS ];$/;"	m	struct:__anon26	file:
+type	include/hardware_legacy/gps.h	/^    AGpsType        type;$/;"	m	struct:__anon12
+uevent_init	uevent/uevent.c	/^int uevent_init()$/;"	f
+uevent_init	uevent/uevent_stub.c	/^int uevent_init()$/;"	f
+uevent_next_event	uevent/uevent.c	/^int uevent_next_event(char* buffer, int buffer_length)$/;"	f
+uevent_next_event	uevent/uevent_stub.c	/^int uevent_next_event(char* buffer, int buffer_length)$/;"	f
+used_in_fix_mask	include/hardware_legacy/gps.h	/^        uint32_t    used_in_fix_mask;$/;"	m	struct:__anon6
+utc_day	gps/gps_marvell_sirf.c	/^    int     utc_day;$/;"	m	struct:__anon21	file:
+utc_day	gps/gps_qemu.c	/^    int     utc_day;$/;"	m	struct:__anon27	file:
+utc_diff	gps/gps_marvell_sirf.c	/^    int     utc_diff;$/;"	m	struct:__anon21	file:
+utc_diff	gps/gps_qemu.c	/^    int     utc_diff;$/;"	m	struct:__anon27	file:
+utc_mon	gps/gps_marvell_sirf.c	/^    int     utc_mon;$/;"	m	struct:__anon21	file:
+utc_mon	gps/gps_qemu.c	/^    int     utc_mon;$/;"	m	struct:__anon27	file:
+utc_year	gps/gps_marvell_sirf.c	/^    int     utc_year;$/;"	m	struct:__anon21	file:
+utc_year	gps/gps_qemu.c	/^    int     utc_year;$/;"	m	struct:__anon27	file:
+vibrator_off	vibrator/vibrator.c	/^int vibrator_off()$/;"	f
+vibrator_on	vibrator/vibrator.c	/^int vibrator_on(int timeout_ms)$/;"	f
+wifi_close_supplicant_connection	wifi/mrvl8787_wifi.c	/^void wifi_close_supplicant_connection()$/;"	f
+wifi_command	wifi/mrvl8787_wifi.c	/^int wifi_command(const char *command, char *reply, size_t *reply_len)$/;"	f
+wifi_connect_to_supplicant	wifi/mrvl8787_wifi.c	/^int wifi_connect_to_supplicant()$/;"	f
+wifi_load_driver	wifi/mrvl8787_wifi.c	/^int wifi_load_driver()$/;"	f
+wifi_load_uap_driver	wifi/mrvl8787_wifi.c	/^int wifi_load_uap_driver()$/;"	f
+wifi_send_command	wifi/mrvl8787_wifi.c	/^int wifi_send_command(struct wpa_ctrl *ctrl, const char *cmd, char *reply, size_t *reply_len)$/;"	f
+wifi_start_supplicant	wifi/mrvl8787_wifi.c	/^int wifi_start_supplicant()$/;"	f
+wifi_stop_supplicant	wifi/mrvl8787_wifi.c	/^int wifi_stop_supplicant()$/;"	f
+wifi_unload_driver	wifi/mrvl8787_wifi.c	/^int wifi_unload_driver()$/;"	f
+wifi_wait_for_event	wifi/mrvl8787_wifi.c	/^int wifi_wait_for_event(char *buf, size_t buflen)$/;"	f
+~AudioHardwareBase	include/hardware_legacy/AudioHardwareBase.h	/^    virtual             ~AudioHardwareBase() { }$/;"	f	class:android::AudioHardwareBase
+~AudioHardwareInterface	include/hardware_legacy/AudioHardwareInterface.h	/^    virtual ~AudioHardwareInterface() {}$/;"	f	class:android::AudioHardwareInterface
+~AudioPolicyClientInterface	include/hardware_legacy/AudioPolicyInterface.h	/^    virtual ~AudioPolicyClientInterface() {}$/;"	f	class:android::AudioPolicyClientInterface
+~AudioPolicyInterface	include/hardware_legacy/AudioPolicyInterface.h	/^    virtual ~AudioPolicyInterface() {}$/;"	f	class:android::AudioPolicyInterface
