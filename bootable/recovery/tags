@@ -1,0 +1,879 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSUMED_UPDATE_BINARY_NAME	install.c	36;"	d	file:
+AbortFn	edify/expr.c	/^Value* AbortFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ApplyBSDiffPatch	applypatch/bspatch.c	/^int ApplyBSDiffPatch(const unsigned char* old_data, ssize_t old_size,$/;"	f
+ApplyBSDiffPatchMem	applypatch/bspatch.c	/^int ApplyBSDiffPatchMem(const unsigned char* old_data, ssize_t old_size,$/;"	f
+ApplyImagePatch	applypatch/imgpatch.c	/^int ApplyImagePatch(const unsigned char* old_data, ssize_t old_size,$/;"	f
+ApplyPatchCheckFn	updater/install.c	/^Value* ApplyPatchCheckFn(const char* name, State* state,$/;"	f
+ApplyPatchFn	updater/install.c	/^Value* ApplyPatchFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ApplyPatchSpaceFn	updater/install.c	/^Value* ApplyPatchSpaceFn(const char* name, State* state,$/;"	f
+AreChunksEqual	applypatch/imgdiff.c	/^int AreChunksEqual(ImageChunk* a, ImageChunk* b) {$/;"	f
+AssertFn	edify/expr.c	/^Value* AssertFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+BACKGROUND_ICON_ERROR	common.h	/^  BACKGROUND_ICON_ERROR,$/;"	e	enum:__anon23
+BACKGROUND_ICON_INSTALLING	common.h	/^  BACKGROUND_ICON_INSTALLING,$/;"	e	enum:__anon23
+BACKGROUND_ICON_NONE	common.h	/^  BACKGROUND_ICON_NONE,$/;"	e	enum:__anon23
+BEGIN_ANIMATION	socket_server.c	/^	BEGIN_ANIMATION,$/;"	e	enum:options	file:
+BITMAPINFO_HEADER_FMT	tools/ota/convert-to-bmp.py	/^  BITMAPINFO_HEADER_FMT= ("<"      # little-endian$/;"	v
+BITMAPS	ui.c	/^static const struct { gr_surface* surface; const char *name; } BITMAPS[] = {$/;"	v	typeref:struct:__anon12	file:
+BMP_HEADER_FMT	tools/ota/convert-to-bmp.py	/^  BMP_HEADER_FMT = ("<"      # little-endian$/;"	v
+BUFFER_SIZE	applypatch/imgdiff.c	513;"	d	file:
+BUFFER_SIZE	verifier.c	137;"	d	file:
+BooleanString	edify/expr.c	/^int BooleanString(const char* s) {$/;"	f
+BufferExtractCookie	minzip/Zip.c	/^} BufferExtractCookie;$/;"	t	typeref:struct:__anon5	file:
+Build	edify/expr.c	/^Expr* Build(Function fn, YYLTYPE loc, int count, ...) {$/;"	f
+CACHE_NAME	bootloader.c	/^static const char *CACHE_NAME = "CACHE:";$/;"	v	file:
+CACHE_TEMP_SOURCE	applypatch/applypatch.h	41;"	d
+CANARY_FILE	test_roots.c	21;"	d	file:
+CANARY_FILE_ROOT_PATH	test_roots.c	22;"	d	file:
+CENATT	minzip/Zip.c	/^    CENATT = 36,$/;"	e	enum:__anon3	file:
+CENATX	minzip/Zip.c	/^    CENATX = 38,$/;"	e	enum:__anon3	file:
+CENCOM	minzip/Zip.c	/^    CENCOM = 32,$/;"	e	enum:__anon3	file:
+CENCRC	minzip/Zip.c	/^    CENCRC = 16,$/;"	e	enum:__anon3	file:
+CENDSK	minzip/Zip.c	/^    CENDSK = 34,$/;"	e	enum:__anon3	file:
+CENEXT	minzip/Zip.c	/^    CENEXT = 30,$/;"	e	enum:__anon3	file:
+CENFLG	minzip/Zip.c	/^    CENFLG =  8,$/;"	e	enum:__anon3	file:
+CENHDR	minzip/Zip.c	/^    CENHDR = 46,$/;"	e	enum:__anon3	file:
+CENHOW	minzip/Zip.c	/^    CENHOW = 10,$/;"	e	enum:__anon3	file:
+CENLEN	minzip/Zip.c	/^    CENLEN = 24,$/;"	e	enum:__anon3	file:
+CENNAM	minzip/Zip.c	/^    CENNAM = 28,$/;"	e	enum:__anon3	file:
+CENOFF	minzip/Zip.c	/^    CENOFF = 42,$/;"	e	enum:__anon3	file:
+CENSIG	minzip/Zip.c	/^    CENSIG = 0x02014b50,      \/\/ PK12$/;"	e	enum:__anon3	file:
+CENSIZ	minzip/Zip.c	/^    CENSIZ = 20,$/;"	e	enum:__anon3	file:
+CENTIM	minzip/Zip.c	/^    CENTIM = 12,$/;"	e	enum:__anon3	file:
+CENVEM	minzip/Zip.c	/^    CENVEM =  4,$/;"	e	enum:__anon3	file:
+CENVEM_UNIX	minzip/Zip.c	/^    CENVEM_UNIX = 3 << 8,   \/\/ the high byte of CENVEM$/;"	e	enum:__anon3	file:
+CENVER	minzip/Zip.c	/^    CENVER =  6,$/;"	e	enum:__anon3	file:
+CHAR_HEIGHT	ui.c	36;"	d	file:
+CHAR_WIDTH	ui.c	35;"	d	file:
+CHUNK_DEFLATE	applypatch/imgdiff.h	20;"	d
+CHUNK_GZIP	applypatch/imgdiff.h	19;"	d
+CHUNK_NORMAL	applypatch/imgdiff.h	18;"	d
+CHUNK_RAW	applypatch/imgdiff.h	21;"	d
+COMMAND_FILE	recovery.c	/^static const char *COMMAND_FILE = "CACHE:recovery\/command";$/;"	v	file:
+CONDITION	minzip/Log.h	56;"	d
+CacheSizeCheck	applypatch/applypatch.c	/^int CacheSizeCheck(size_t bytes) {$/;"	f
+ChangeDeflateChunkToNormal	applypatch/imgdiff.c	/^void ChangeDeflateChunkToNormal(ImageChunk* ch) {$/;"	f
+CheckMode	applypatch/main.c	/^int CheckMode(int argc, char** argv) {$/;"	f
+ConcatFn	edify/expr.c	/^Value* ConcatFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+CopyProcessArgs	minzip/Zip.c	/^} CopyProcessArgs;$/;"	t	typeref:struct:__anon4	file:
+DDIR	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	e	enum:__anon7	file:
+DEFAULT_FILES_PROGRESS_FRACTION	common.h	/^static const float DEFAULT_FILES_PROGRESS_FRACTION = 0.4;$/;"	v
+DEFAULT_IMAGE_PROGRESS_FRACTION	common.h	/^static const float DEFAULT_IMAGE_PROGRESS_FRACTION = 0.1;$/;"	v
+DEFAULT_PAGE_SIZE	minzip/SysUtil.c	24;"	d	file:
+DEFLATED	minzip/Zip.c	/^    DEFLATED = 8,$/;"	e	enum:__anon3	file:
+DILLEGAL	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	e	enum:__anon7	file:
+DMISSING	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	e	enum:__anon7	file:
+DeleteFn	updater/install.c	/^Value* DeleteFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+DirStatus	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	t	typeref:enum:__anon7	file:
+DumpChunks	applypatch/imgdiff.c	/^void DumpChunks(ImageChunk* chunks, int num_chunks) {$/;"	f
+ENDCOM	minzip/Zip.c	/^    ENDCOM = 20,$/;"	e	enum:__anon3	file:
+ENDHDR	minzip/Zip.c	/^    ENDHDR = 22,$/;"	e	enum:__anon3	file:
+ENDOFF	minzip/Zip.c	/^    ENDOFF = 16,$/;"	e	enum:__anon3	file:
+ENDSIG	minzip/Zip.c	/^    ENDSIG = 0x06054b50,     \/\/ PK56$/;"	e	enum:__anon3	file:
+ENDSIZ	minzip/Zip.c	/^    ENDSIZ = 12,$/;"	e	enum:__anon3	file:
+ENDSUB	minzip/Zip.c	/^    ENDSUB =  8,$/;"	e	enum:__anon3	file:
+ENDTOT	minzip/Zip.c	/^    ENDTOT = 10,$/;"	e	enum:__anon3	file:
+END_ANIMATION	socket_server.c	/^	END_ANIMATION,$/;"	e	enum:options	file:
+EOCD_HEADER_SIZE	verifier.c	84;"	d	file:
+EXPAND	common.h	87;"	d
+EXTCRC	minzip/Zip.c	/^    EXTCRC =  4,$/;"	e	enum:__anon3	file:
+EXTHDR	minzip/Zip.c	/^    EXTHDR = 16,$/;"	e	enum:__anon3	file:
+EXTLEN	minzip/Zip.c	/^    EXTLEN = 12,$/;"	e	enum:__anon3	file:
+EXTSIG	minzip/Zip.c	/^    EXTSIG = 0x08074b50,     \/\/ PK78$/;"	e	enum:__anon3	file:
+EXTSIZ	minzip/Zip.c	/^    EXTSIZ =  8,$/;"	e	enum:__anon3	file:
+EliminateOpenFiles	applypatch/freecache.c	/^static int EliminateOpenFiles(char** files, int file_count) {$/;"	f	file:
+EqualityFn	edify/expr.c	/^Value* EqualityFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ErrorAbort	edify/expr.c	/^Value* ErrorAbort(State* state, char* format, ...) {$/;"	f
+Evaluate	edify/expr.c	/^char* Evaluate(State* state, Expr* expr) {$/;"	f
+EvaluateValue	edify/expr.c	/^Value* EvaluateValue(State* state, Expr* expr) {$/;"	f
+Expr	edify/expr.h	/^struct Expr {$/;"	s
+Expr	edify/expr.h	/^typedef struct Expr Expr;$/;"	t	typeref:struct:Expr
+ExprDump	edify/main.c	/^void ExprDump(int depth, Expr* n, char* script) {$/;"	f
+FOOTER_SIZE	verifier.c	52;"	d	file:
+FileContents	applypatch/applypatch.h	/^} FileContents;$/;"	t	typeref:struct:_FileContents
+FileGetPropFn	updater/install.c	/^Value* FileGetPropFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+FileSink	applypatch/applypatch.c	/^ssize_t FileSink(unsigned char* data, ssize_t len, void* token) {$/;"	f
+FillBuffer	applypatch/bspatch.c	/^int FillBuffer(unsigned char* buffer, int size, bz_stream* stream) {$/;"	f
+FindChunkByName	applypatch/imgdiff.c	/^ImageChunk* FindChunkByName(const char* name,$/;"	f
+FindExpendableFiles	applypatch/freecache.c	/^int FindExpendableFiles(char*** names, int* entries) {$/;"	f
+FindFunction	edify/expr.c	/^Function FindFunction(const char* name) {$/;"	f
+FindMatchingPatch	applypatch/applypatch.c	/^int FindMatchingPatch(uint8_t* sha1, char** const patch_sha1_str,$/;"	f
+FinishRegistration	edify/expr.c	/^void FinishRegistration() {$/;"	f
+FormatFn	updater/install.c	/^Value* FormatFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+FreeFileContents	applypatch/applypatch.c	/^void FreeFileContents(FileContents* file) {$/;"	f
+FreeSpaceForFile	applypatch/applypatch.c	/^size_t FreeSpaceForFile(const char* filename) {$/;"	f
+FreeValue	edify/expr.c	/^void FreeValue(Value* v) {$/;"	f
+Function	edify/expr.h	/^typedef Value* (*Function)(const char* name, State* state,$/;"	t
+GRFont	minui/graphics.c	/^} GRFont;$/;"	t	typeref:struct:__anon11	file:
+GZIP_FOOTER_LEN	applypatch/imgdiff.h	30;"	d
+GZIP_HEADER_LEN	applypatch/imgdiff.h	27;"	d
+GetPropFn	updater/install.c	/^Value* GetPropFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+GreaterThanIntFn	edify/expr.c	/^Value* GreaterThanIntFn(const char* name, State* state,$/;"	f
+HASH_TOMBSTONE	minzip/Hash.h	54;"	d
+HEADER_SIZE	mtdutils/flash_image.c	29;"	d	file:
+HIGHLIGHT_DOWN	recovery_ui.h	65;"	d
+HIGHLIGHT_UP	recovery_ui.h	64;"	d
+HashCalcFunc	minzip/Hash.h	/^typedef unsigned int (*HashCalcFunc)(const void* item);$/;"	t
+HashCompareFunc	minzip/Hash.h	/^typedef int (*HashCompareFunc)(const void* tableItem, const void* looseItem);$/;"	t
+HashCompute	minzip/Hash.h	/^typedef unsigned int (*HashCompute)(const void* item);$/;"	t
+HashEntry	minzip/Hash.h	/^typedef struct HashEntry {$/;"	s
+HashEntry	minzip/Hash.h	/^} HashEntry;$/;"	t	typeref:struct:HashEntry
+HashForeachFunc	minzip/Hash.h	/^typedef int (*HashForeachFunc)(void* data, void* arg);$/;"	t
+HashFreeFunc	minzip/Hash.h	/^typedef void (*HashFreeFunc)(void* ptr);$/;"	t
+HashIter	minzip/Hash.h	/^typedef struct HashIter {$/;"	s
+HashIter	minzip/Hash.h	/^} HashIter;$/;"	t	typeref:struct:HashIter
+HashTable	minzip/Hash.h	/^typedef struct HashTable {$/;"	s
+HashTable	minzip/Hash.h	/^} HashTable;$/;"	t	typeref:struct:HashTable
+I	applypatch/imgdiff.c	/^  off_t* I;             \/\/ used by bsdiff$/;"	m	struct:__anon21	file:
+IF_LOG	minzip/Log.h	203;"	d
+IF_LOGD	minzip/Log.h	146;"	d
+IF_LOGE	minzip/Log.h	170;"	d
+IF_LOGI	minzip/Log.h	154;"	d
+IF_LOGV	minzip/Log.h	135;"	d
+IF_LOGV	minzip/Log.h	137;"	d
+IF_LOGW	minzip/Log.h	162;"	d
+INLINE	minzip/inline_magic.h	21;"	d
+INLINE	minzip/inline_magic.h	23;"	d
+INSTALL_CORRUPT	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT };$/;"	e	enum:__anon19
+INSTALL_ERROR	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT };$/;"	e	enum:__anon19
+INSTALL_SUCCESS	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT };$/;"	e	enum:__anon19
+INTENT_FILE	recovery.c	/^static const char *INTENT_FILE = "CACHE:recovery\/intent";$/;"	v	file:
+ITEM_APPLY_SDCARD	recovery_ui.h	69;"	d
+ITEM_REBOOT	recovery_ui.h	68;"	d
+ITEM_WIPE_CACHE	recovery_ui.h	71;"	d
+ITEM_WIPE_DATA	recovery_ui.h	70;"	d
+IfElseFn	edify/expr.c	/^Value* IfElseFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ImageChunk	applypatch/imgdiff.c	/^} ImageChunk;$/;"	t	typeref:struct:__anon21	file:
+InequalityFn	edify/expr.c	/^Value* InequalityFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+IsMountedFn	updater/install.c	/^Value* IsMountedFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+LOAD_DENOM	minzip/Hash.c	19;"	d	file:
+LOAD_NUMER	minzip/Hash.c	18;"	d	file:
+LOCAL_CFLAGS	edify/Android.mk	/^LOCAL_CFLAGS := $(edify_cflags) -g -O0$/;"	m
+LOCAL_CFLAGS	edify/Android.mk	/^LOCAL_CFLAGS := $(edify_cflags)$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	applypatch/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	tools/ota/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	updater/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := recovery$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := verifier_test$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := applypatch$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := applypatch_static$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := imgdiff$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := libapplypatch$/;"	m
+LOCAL_MODULE	edify/Android.mk	/^LOCAL_MODULE := edify$/;"	m
+LOCAL_MODULE	edify/Android.mk	/^LOCAL_MODULE := libedify$/;"	m
+LOCAL_MODULE	minui/Android.mk	/^LOCAL_MODULE := libminui$/;"	m
+LOCAL_MODULE	minzip/Android.mk	/^LOCAL_MODULE := libminzip$/;"	m
+LOCAL_MODULE	mtdutils/Android.mk	/^LOCAL_MODULE := flash_image$/;"	m
+LOCAL_MODULE	mtdutils/Android.mk	/^LOCAL_MODULE := libmtdutils$/;"	m
+LOCAL_MODULE	tools/ota/Android.mk	/^LOCAL_MODULE := add-property-tag$/;"	m
+LOCAL_MODULE	tools/ota/Android.mk	/^LOCAL_MODULE := check-lost+found$/;"	m
+LOCAL_MODULE	updater/Android.mk	/^LOCAL_MODULE := updater$/;"	m
+LOCAL_MODULE_PATH	tools/ota/Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := tests$/;"	m
+LOCAL_MODULE_TAGS	applypatch/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	mtdutils/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	tools/ota/Android.mk	/^LOCAL_MODULE_TAGS := debug$/;"	m
+LOCAL_MODULE_TAGS	updater/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	applypatch/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	edify/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	minui/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	minzip/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	mtdutils/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	tools/ota/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	updater/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	mtdutils/Android.mk	/^LOCAL_SHARED_LIBRARIES := libcutils libc$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := verifier_test.c verifier.c$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := applypatch.c bspatch.c freecache.c imgpatch.c utils.c$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := imgdiff.c utils.c bsdiff.c$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := main.c$/;"	m
+LOCAL_SRC_FILES	edify/Android.mk	/^LOCAL_SRC_FILES := $(edify_src_files)$/;"	m
+LOCAL_SRC_FILES	edify/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	minui/Android.mk	/^LOCAL_SRC_FILES := graphics.c events.c resources.c$/;"	m
+LOCAL_SRC_FILES	minzip/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	mtdutils/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	mtdutils/Android.mk	/^LOCAL_SRC_FILES := flash_image.c$/;"	m
+LOCAL_SRC_FILES	tools/ota/Android.mk	/^LOCAL_SRC_FILES := add-property-tag.c$/;"	m
+LOCAL_SRC_FILES	tools/ota/Android.mk	/^LOCAL_SRC_FILES := check-lost+found.c$/;"	m
+LOCAL_SRC_FILES	updater/Android.mk	/^LOCAL_SRC_FILES := $(updater_src_files)$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libmincrypt libcutils libstdc++ libc$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES :=$/;"	m
+LOCAL_STATIC_LIBRARIES	mtdutils/Android.mk	/^LOCAL_STATIC_LIBRARIES := libmtdutils$/;"	m
+LOCAL_STATIC_LIBRARIES	tools/ota/Android.mk	/^LOCAL_STATIC_LIBRARIES := libc$/;"	m
+LOCAL_STATIC_LIBRARIES	tools/ota/Android.mk	/^LOCAL_STATIC_LIBRARIES := libcutils libc$/;"	m
+LOCAL_STATIC_LIBRARIES	updater/Android.mk	/^LOCAL_STATIC_LIBRARIES := $(TARGET_RECOVERY_UPDATER_LIBS) $(TARGET_RECOVERY_UPDATER_EXTRA_LIBS)$/;"	m
+LOCAL_YACCFLAGS	edify/Android.mk	/^LOCAL_YACCFLAGS := -v$/;"	m
+LOCCRC	minzip/Zip.c	/^    LOCCRC = 14,$/;"	e	enum:__anon3	file:
+LOCEXT	minzip/Zip.c	/^    LOCEXT = 28,$/;"	e	enum:__anon3	file:
+LOCFLG	minzip/Zip.c	/^    LOCFLG =  6,$/;"	e	enum:__anon3	file:
+LOCHDR	minzip/Zip.c	/^    LOCHDR = 30,$/;"	e	enum:__anon3	file:
+LOCHOW	minzip/Zip.c	/^    LOCHOW =  8,$/;"	e	enum:__anon3	file:
+LOCLEN	minzip/Zip.c	/^    LOCLEN = 22,$/;"	e	enum:__anon3	file:
+LOCNAM	minzip/Zip.c	/^    LOCNAM = 26,$/;"	e	enum:__anon3	file:
+LOCSIG	minzip/Zip.c	/^    LOCSIG = 0x04034b50,      \/\/ PK34$/;"	e	enum:__anon3	file:
+LOCSIZ	minzip/Zip.c	/^    LOCSIZ = 18,$/;"	e	enum:__anon3	file:
+LOCTIM	minzip/Zip.c	/^    LOCTIM = 10,$/;"	e	enum:__anon3	file:
+LOCVER	minzip/Zip.c	/^    LOCVER =  4,$/;"	e	enum:__anon3	file:
+LOG	minzip/Log.h	187;"	d
+LOGD	common.h	83;"	d
+LOGD	minzip/Log.h	76;"	d
+LOGD_IF	minzip/Log.h	80;"	d
+LOGE	common.h	74;"	d
+LOGE	minzip/Log.h	118;"	d
+LOGE_IF	minzip/Log.h	122;"	d
+LOGI	common.h	76;"	d
+LOGI	minzip/Log.h	90;"	d
+LOGI_IF	minzip/Log.h	94;"	d
+LOGV	common.h	82;"	d
+LOGV	minzip/Log.h	50;"	d
+LOGV	minzip/Log.h	52;"	d
+LOGVV	minzip/Log.h	69;"	d
+LOGVV_IF	minzip/Log.h	70;"	d
+LOGV_IF	minzip/Log.h	60;"	d
+LOGV_IF	minzip/Log.h	62;"	d
+LOGW	common.h	75;"	d
+LOGW	minzip/Log.h	104;"	d
+LOGW_IF	minzip/Log.h	108;"	d
+LOG_FILE	recovery.c	/^static const char *LOG_FILE = "CACHE:recovery\/log";$/;"	v	file:
+LOG_NDEBUG	minzip/Log.h	28;"	d
+LOG_NDEBUG	minzip/Log.h	30;"	d
+LOG_PRI	minzip/Log.h	195;"	d
+LOG_TAG	minzip/Hash.c	11;"	d	file:
+LOG_TAG	minzip/Log.h	40;"	d
+LOG_TAG	minzip/SysUtil.c	15;"	d	file:
+LOG_TAG	minzip/Zip.c	17;"	d	file:
+LOG_TAG	mtdutils/flash_image.c	27;"	d	file:
+LessThanIntFn	edify/expr.c	/^Value* LessThanIntFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+Literal	edify/expr.c	/^Value* Literal(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+LoadFileContents	applypatch/applypatch.c	/^int LoadFileContents(const char* filename, FileContents* file) {$/;"	f
+LoadMTDContents	applypatch/applypatch.c	/^int LoadMTDContents(const char* filename, FileContents* file) {$/;"	f
+LogicalAndFn	edify/expr.c	/^Value* LogicalAndFn(const char* name, State* state,$/;"	f
+LogicalNotFn	edify/expr.c	/^Value* LogicalNotFn(const char* name, State* state,$/;"	f
+LogicalOrFn	edify/expr.c	/^Value* LogicalOrFn(const char* name, State* state,$/;"	f
+MAX_ARGS	recovery.c	/^static const int MAX_ARGS = 100;$/;"	v	file:
+MAX_ARG_LENGTH	recovery.c	/^static const int MAX_ARG_LENGTH = 4096;$/;"	v	file:
+MAX_COLS	ui.c	32;"	d	file:
+MAX_COMMAND_BYTES	socket_server.c	29;"	d	file:
+MAX_DEVICES	minui/events.c	27;"	d	file:
+MAX_FILE_GETPROP_SIZE	updater/install.c	545;"	d	file:
+MAX_ROWS	ui.c	33;"	d	file:
+MAX_STRING_LEN	edify/expr.h	24;"	d
+MENU_HEADERS	default_recovery_ui.c	/^char* MENU_HEADERS[] = { "Android system recovery utility",$/;"	v
+MENU_ITEMS	default_recovery_ui.c	/^char* MENU_ITEMS[] = { "reboot system now",$/;"	v
+MIN	applypatch/bsdiff.c	58;"	d	file:
+MINZIP_DIRUTIL_H_	minzip/DirUtil.h	18;"	d
+MINZIP_GENERATE_INLINES	minzip/Inlines.c	21;"	d	file:
+MINZIP_INLINE_MAGIC_H_	minzip/inline_magic.h	18;"	d
+MISC_COMMAND_PAGE	bootloader.c	/^static const int MISC_COMMAND_PAGE = 1;  \/\/ bootloader command is this page$/;"	v	file:
+MISC_NAME	bootloader.c	/^static const char *MISC_NAME = "MISC:";$/;"	v	file:
+MISC_PAGES	bootloader.c	/^static const int MISC_PAGES = 3;         \/\/ number of pages to save$/;"	v	file:
+MTDUTILS_H_	mtdutils/mtdutils.h	18;"	d
+MTDUTILS_MOUNTS_H_	mtdutils/mounts.h	18;"	d
+MTD_PROC_FILENAME	mtdutils/mtdutils.c	68;"	d	file:
+MZ_EXTRACT_DRY_RUN	minzip/Zip.h	/^enum { MZ_EXTRACT_FILES_ONLY = 1, MZ_EXTRACT_DRY_RUN = 2 };$/;"	e	enum:__anon9
+MZ_EXTRACT_FILES_ONLY	minzip/Zip.h	/^enum { MZ_EXTRACT_FILES_ONLY = 1, MZ_EXTRACT_DRY_RUN = 2 };$/;"	e	enum:__anon9
+MakeFreeSpaceOnCache	applypatch/freecache.c	/^int MakeFreeSpaceOnCache(size_t bytes_needed) {$/;"	f
+MakePatch	applypatch/imgdiff.c	/^unsigned char* MakePatch(ImageChunk* src, ImageChunk* tgt, size_t* size) {$/;"	f
+MemMapping	minzip/SysUtil.h	/^typedef struct MemMapping {$/;"	s
+MemMapping	minzip/SysUtil.h	/^} MemMapping;$/;"	t	typeref:struct:MemMapping
+MemorySink	applypatch/applypatch.c	/^ssize_t MemorySink(unsigned char* data, ssize_t len, void* token) {$/;"	f
+MemorySinkInfo	applypatch/applypatch.c	/^} MemorySinkInfo;$/;"	t	typeref:struct:__anon20	file:
+MergeAdjacentNormalChunks	applypatch/imgdiff.c	/^void MergeAdjacentNormalChunks(ImageChunk* chunks, int* num_chunks) {$/;"	f
+MountFn	updater/install.c	/^Value* MountFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+MountedVolume	mtdutils/mounts.c	/^struct MountedVolume {$/;"	s	file:
+MountedVolume	mtdutils/mounts.h	/^typedef struct MountedVolume MountedVolume;$/;"	t	typeref:struct:MountedVolume
+MountsState	mtdutils/mounts.c	/^} MountsState;$/;"	t	typeref:struct:__anon2	file:
+MtdPartition	mtdutils/mtdutils.c	/^struct MtdPartition {$/;"	s	file:
+MtdPartition	mtdutils/mtdutils.h	/^typedef struct MtdPartition MtdPartition;$/;"	t	typeref:struct:MtdPartition
+MtdReadContext	mtdutils/mtdutils.c	/^struct MtdReadContext {$/;"	s	file:
+MtdReadContext	mtdutils/mtdutils.h	/^typedef struct MtdReadContext MtdReadContext;$/;"	t	typeref:struct:MtdReadContext
+MtdState	mtdutils/mtdutils.c	/^} MtdState;$/;"	t	typeref:struct:__anon1	file:
+MtdWriteContext	mtdutils/mtdutils.c	/^struct MtdWriteContext {$/;"	s	file:
+MtdWriteContext	mtdutils/mtdutils.h	/^typedef struct MtdWriteContext MtdWriteContext;$/;"	t	typeref:struct:MtdWriteContext
+MzPathHelper	minzip/Zip.c	/^} MzPathHelper;$/;"	t	typeref:struct:__anon6	file:
+NDEBUG	minzip/Zip.c	23;"	d	file:
+NDEBUG	mtdutils/mtdutils.c	26;"	d	file:
+NO_ACTION	recovery_ui.h	62;"	d
+NUM_BACKGROUND_ICONS	common.h	/^  NUM_BACKGROUND_ICONS$/;"	e	enum:__anon23
+NUM_ROOTS	roots.c	59;"	d	file:
+NamedFunction	edify/expr.h	/^} NamedFunction;$/;"	t	typeref:struct:__anon17
+OPTIONS	recovery.c	/^static const struct option OPTIONS[] = {$/;"	v	typeref:struct:option	file:
+PRINT_MESSAGE	socket_server.c	/^	PRINT_MESSAGE,$/;"	e	enum:options	file:
+PROC_MOUNTS_FILENAME	mtdutils/mounts.c	57;"	d	file:
+PROGRESSBAR_INDETERMINATE_FPS	ui.c	39;"	d	file:
+PROGRESSBAR_INDETERMINATE_STATES	ui.c	38;"	d	file:
+PROGRESSBAR_TYPE_INDETERMINATE	ui.c	/^    PROGRESSBAR_TYPE_INDETERMINATE,$/;"	e	enum:ProgressBarType	file:
+PROGRESSBAR_TYPE_NONE	ui.c	/^    PROGRESSBAR_TYPE_NONE,$/;"	e	enum:ProgressBarType	file:
+PROGRESSBAR_TYPE_NORMAL	ui.c	/^    PROGRESSBAR_TYPE_NORMAL,$/;"	e	enum:ProgressBarType	file:
+PUBLIC_KEYS_FILE	install.c	37;"	d	file:
+PackageExtractDirFn	updater/install.c	/^Value* PackageExtractDirFn(const char* name, State* state,$/;"	f
+PackageExtractFileFn	updater/install.c	/^Value* PackageExtractFileFn(const char* name, State* state,$/;"	f
+ParsePatchArgs	applypatch/main.c	/^static int ParsePatchArgs(int argc, char** argv,$/;"	f	file:
+ParseSha1	applypatch/applypatch.c	/^int ParseSha1(const char* str, uint8_t* digest) {$/;"	f
+Patch	applypatch/applypatch.h	/^} Patch;$/;"	t	typeref:struct:_Patch
+PatchMode	applypatch/main.c	/^int PatchMode(int argc, char** argv) {$/;"	f
+PrintSha1	updater/install.c	/^static char* PrintSha1(uint8_t* digest) {$/;"	f	file:
+ProcessZipEntryContentsFunction	minzip/Zip.h	/^typedef bool (*ProcessZipEntryContentsFunction)(const unsigned char *data,$/;"	t
+ProgressBarType	ui.c	/^static enum ProgressBarType {$/;"	g	file:
+REBOOT	socket_server.c	/^	REBOOT,$/;"	e	enum:options	file:
+RECOVERY_API_VERSION	Android.mk	/^RECOVERY_API_VERSION := 3$/;"	m
+RECOVERY_COMMON_H	common.h	18;"	d
+RECOVERY_INSTALL_H_	install.h	18;"	d
+RECOVERY_ROOTS_H_	roots.h	18;"	d
+RECOVERY_SOCKET_SERVER_H_	socket_server.h	18;"	d
+Read2	applypatch/utils.c	/^int Read2(void* pv) {$/;"	f
+Read4	applypatch/utils.c	/^int Read4(void* pv) {$/;"	f
+Read8	applypatch/utils.c	/^long long Read8(void* pv) {$/;"	f
+ReadArgs	edify/expr.c	/^int ReadArgs(State* state, Expr* argv[], int count, ...) {$/;"	f
+ReadFileFn	updater/install.c	/^Value* ReadFileFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ReadImage	applypatch/imgdiff.c	/^unsigned char* ReadImage(const char* filename,$/;"	f
+ReadValueArgs	edify/expr.c	/^int ReadValueArgs(State* state, Expr* argv[], int count, ...) {$/;"	f
+ReadValueVarArgs	edify/expr.c	/^Value** ReadValueVarArgs(State* state, int argc, Expr* argv[]) {$/;"	f
+ReadVarArgs	edify/expr.c	/^char** ReadVarArgs(State* state, int argc, Expr* argv[]) {$/;"	f
+ReadZip	applypatch/imgdiff.c	/^unsigned char* ReadZip(const char* filename,$/;"	f
+ReconstructDeflateChunk	applypatch/imgdiff.c	/^int ReconstructDeflateChunk(ImageChunk* chunk) {$/;"	f
+RegisterBuiltins	edify/expr.c	/^void RegisterBuiltins() {$/;"	f
+RegisterFunction	edify/expr.c	/^void RegisterFunction(const char* name, Function fn) {$/;"	f
+RegisterInstallFunctions	updater/install.c	/^void RegisterInstallFunctions() {$/;"	f
+RootInfo	roots.c	/^} RootInfo;$/;"	t	typeref:struct:__anon13	file:
+RunProgramFn	updater/install.c	/^Value* RunProgramFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SCRIPT_NAME	updater/updater.c	33;"	d	file:
+SDCARD_PACKAGE_FILE	recovery.c	/^static const char *SDCARD_PACKAGE_FILE = "SDCARD:update.zip";$/;"	v	file:
+SELECT_ITEM	recovery_ui.h	66;"	d
+SET_PROGRESS	socket_server.c	/^	SET_PROGRESS,$/;"	e	enum:options	file:
+SOCKET_NAME_RECOVERY	socket_server.c	28;"	d	file:
+SORT_ENTRIES	minzip/Zip.c	26;"	d	file:
+STORED	minzip/Zip.c	/^    STORED = 0,$/;"	e	enum:__anon3	file:
+STRINGIFY	common.h	86;"	d
+SaveFileContents	applypatch/applypatch.c	/^int SaveFileContents(const char* filename, FileContents file) {$/;"	f
+SequenceFn	edify/expr.c	/^Value* SequenceFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SetPermFn	updater/install.c	/^Value* SetPermFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SetProgressFn	updater/install.c	/^Value* SetProgressFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+Sha1CheckFn	updater/install.c	/^Value* Sha1CheckFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ShowBSDiffLicense	applypatch/bspatch.c	/^void ShowBSDiffLicense() {$/;"	f
+ShowLicenses	applypatch/applypatch.c	/^int ShowLicenses() {$/;"	f
+ShowProgressFn	updater/install.c	/^Value* ShowProgressFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SinkFn	applypatch/applypatch.h	/^typedef ssize_t (*SinkFn)(unsigned char*, ssize_t, void*);$/;"	t
+SleepFn	edify/expr.c	/^Value* SleepFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SpaceMode	applypatch/main.c	/^int SpaceMode(int argc, char** argv) {$/;"	f
+State	edify/expr.h	/^} State;$/;"	t	typeref:struct:__anon15
+StdoutFn	edify/expr.c	/^Value* StdoutFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+StringValue	edify/expr.c	/^Value* StringValue(char* str) {$/;"	f
+SubstringFn	edify/expr.c	/^Value* SubstringFn(const char* name, State* state,$/;"	f
+SymlinkFn	updater/install.c	/^Value* SymlinkFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+TARGET_ARCH	Android.mk	/^endif   # TARGET_ARCH == arm$/;"	m
+TARGET_ARCH	mtdutils/Android.mk	/^endif	# TARGET_ARCH == arm$/;"	m
+TEMPORARY_LOG_FILE	recovery.c	/^static const char *TEMPORARY_LOG_FILE = "\/tmp\/recovery.log";$/;"	v	file:
+TryReconstruction	applypatch/imgdiff.c	/^int TryReconstruction(ImageChunk* chunk, unsigned char* out) {$/;"	f
+UIPrintFn	updater/install.c	/^Value* UIPrintFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UNZIP_DIRMODE	minzip/Zip.c	1043;"	d	file:
+UNZIP_FILEMODE	minzip/Zip.c	1044;"	d	file:
+UnmountFn	updater/install.c	/^Value* UnmountFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UnterminatedString	minzip/Zip.h	/^} UnterminatedString;$/;"	t	typeref:struct:__anon8
+UpdaterInfo	updater/updater.h	/^} UpdaterInfo;$/;"	t	typeref:struct:__anon14
+VAL_BLOB	edify/expr.h	45;"	d
+VAL_STRING	edify/expr.h	44;"	d
+VERIFICATION_PROGRESS_FRACTION	common.h	/^static const float VERIFICATION_PROGRESS_FRACTION = 0.25;$/;"	v
+VERIFICATION_PROGRESS_TIME	common.h	/^static const int VERIFICATION_PROGRESS_TIME = 60;$/;"	v
+VERIFY_FAILURE	verifier.h	28;"	d
+VERIFY_SUCCESS	verifier.h	27;"	d
+Value	edify/expr.h	/^} Value;$/;"	t	typeref:struct:__anon16
+Write4	applypatch/utils.c	/^void Write4(int value, FILE* f) {$/;"	f
+Write8	applypatch/utils.c	/^void Write8(long long value, FILE* f) {$/;"	f
+WriteRawImageFn	updater/install.c	/^Value* WriteRawImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteToMTDPartition	applypatch/applypatch.c	/^int WriteToMTDPartition(unsigned char* data, size_t len,$/;"	f
+YYLLOC_DEFAULT	edify/yydefs.h	25;"	d
+YYLTYPE	edify/yydefs.h	/^} YYLTYPE;$/;"	t	typeref:struct:__anon18
+YYLTYPE	edify/yydefs.h	20;"	d
+ZipArchive	minzip/Zip.h	/^typedef struct ZipArchive {$/;"	s
+ZipArchive	minzip/Zip.h	/^} ZipArchive;$/;"	t	typeref:struct:ZipArchive
+ZipEntry	minzip/Zip.h	/^typedef struct ZipEntry {$/;"	s
+ZipEntry	minzip/Zip.h	/^} ZipEntry;$/;"	t	typeref:struct:ZipEntry
+ZipFileEntry	applypatch/imgdiff.c	/^} ZipFileEntry;$/;"	t	typeref:struct:__anon22	file:
+_APPLYPATCH_H	applypatch/applypatch.h	18;"	d
+_BUILD_TOOLS_APPLYPATCH_UTILS_H	applypatch/utils.h	18;"	d
+_EXPRESSION_H	edify/expr.h	18;"	d
+_FileContents	applypatch/applypatch.h	/^typedef struct _FileContents {$/;"	s
+_MINUI_H_	minui/minui.h	18;"	d
+_MINZIP_BITS	minzip/Bits.h	7;"	d
+_MINZIP_HASH	minzip/Hash.h	10;"	d
+_MINZIP_LOG_H	minzip/Log.h	15;"	d
+_MINZIP_SYSUTIL	minzip/SysUtil.h	7;"	d
+_MINZIP_ZIP	minzip/Zip.h	7;"	d
+_Patch	applypatch/applypatch.h	/^typedef struct _Patch {$/;"	s
+_RECOVERY_BOOTLOADER_H	bootloader.h	18;"	d
+_RECOVERY_UI_H	recovery_ui.h	18;"	d
+_RECOVERY_VERIFIER_H	verifier.h	18;"	d
+_UPDATER_INSTALL_H_	updater/install.h	18;"	d
+_UPDATER_UPDATER_H_	updater/updater.h	18;"	d
+_YYDEFS_H_	edify/yydefs.h	18;"	d
+addEntryToHashTable	minzip/Zip.c	/^static void addEntryToHashTable(HashTable* pHash, ZipEntry* pEntry)$/;"	f	file:
+add_bad_block_offset	mtdutils/mtdutils.c	/^static void add_bad_block_offset(MtdWriteContext *ctx, off_t pos) {$/;"	f	file:
+addr	minzip/SysUtil.h	/^    void*   addr;           \/* start of data *\/$/;"	m	struct:MemMapping
+applypatch	applypatch/applypatch.c	/^int applypatch(const char* source_filename,$/;"	f
+applypatch_check	applypatch/applypatch.c	/^int applypatch_check(const char* filename,$/;"	f
+argc	edify/expr.h	/^    int argc;$/;"	m	struct:Expr
+arglist	edify/parser.y	/^arglist:    \/* empty *\/ {$/;"	l
+argv	edify/expr.h	/^    Expr** argv;$/;"	m	struct:Expr
+ascent	minui/graphics.c	/^    unsigned ascent;$/;"	m	struct:__anon11	file:
+bad_block_alloc	mtdutils/mtdutils.c	/^    int bad_block_alloc;$/;"	m	struct:MtdWriteContext	file:
+bad_block_count	mtdutils/mtdutils.c	/^    int bad_block_count;$/;"	m	struct:MtdWriteContext	file:
+bad_block_offsets	mtdutils/mtdutils.c	/^    off_t* bad_block_offsets;$/;"	m	struct:MtdWriteContext	file:
+baseAddr	minzip/SysUtil.h	/^    void*   baseAddr;       \/* page-aligned base address *\/$/;"	m	struct:MemMapping
+baseLength	minzip/SysUtil.h	/^    size_t  baseLength;     \/* length of mapping *\/$/;"	m	struct:MemMapping
+bootloader_message	bootloader.h	/^struct bootloader_message {$/;"	s
+bsdiff	applypatch/bsdiff.c	/^int bsdiff(u_char* old, off_t oldsize, off_t** IP, u_char* new, off_t newsize,$/;"	f
+buf	minzip/Zip.c	/^    char *buf;$/;"	m	struct:__anon4	file:
+buf	minzip/Zip.c	/^    char *buf;$/;"	m	struct:__anon6	file:
+bufLen	minzip/Zip.c	/^    int bufLen;$/;"	m	struct:__anon4	file:
+bufLen	minzip/Zip.c	/^    int bufLen;$/;"	m	struct:__anon6	file:
+buffer	applypatch/applypatch.c	/^    unsigned char* buffer;$/;"	m	struct:__anon20	file:
+buffer	minzip/Zip.c	/^    unsigned char* buffer;$/;"	m	struct:__anon5	file:
+buffer	mtdutils/mtdutils.c	/^    char *buffer;$/;"	m	struct:MtdReadContext	file:
+buffer	mtdutils/mtdutils.c	/^    char *buffer;$/;"	m	struct:MtdWriteContext	file:
+bufferProcessFunction	minzip/Zip.c	/^static bool bufferProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+check_and_fclose	recovery.c	/^check_and_fclose(FILE *fp, const char *name) {$/;"	f	file:
+cheight	minui/font_10x18.h	/^  unsigned cheight;$/;"	m	struct:__anon10
+cheight	minui/graphics.c	/^    unsigned cheight;$/;"	m	struct:__anon11	file:
+cleanup	applypatch/applypatch.sh	/^cleanup() {$/;"	f
+cleanup	applypatch/imgdiff_test.sh	/^cleanup() {$/;"	f
+cleanup	verifier_test.sh	/^cleanup() {$/;"	f
+cmd_pipe	updater/updater.h	/^    FILE* cmd_pipe;$/;"	m	struct:__anon14
+command	bootloader.h	/^    char command[32];$/;"	m	struct:bootloader_message
+commands_recovery_local_path	Android.mk	/^commands_recovery_local_path := $(LOCAL_PATH)$/;"	m
+commands_recovery_local_path	Android.mk	/^commands_recovery_local_path :=$/;"	m
+compLen	minzip/Zip.h	/^    long         compLen;$/;"	m	struct:ZipEntry
+compare_size_indices	applypatch/applypatch.c	/^static int compare_size_indices(const void* a, const void* b) {$/;"	f	file:
+compression	minzip/Zip.h	/^    int          compression;$/;"	m	struct:ZipEntry
+computeHash	minzip/Zip.c	/^static unsigned int computeHash(const char* name, int nameLen)$/;"	f	file:
+consumed	mtdutils/mtdutils.c	/^    size_t consumed;$/;"	m	struct:MtdReadContext	file:
+cookie	edify/expr.h	/^    void* cookie;$/;"	m	struct:__anon15
+copyProcessFunction	minzip/Zip.c	/^static bool copyProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+countProbes	minzip/Hash.c	/^int countProbes(HashTable* pHashTable, unsigned int itemHash, const void* item,$/;"	f
+countTombStones	minzip/Hash.c	/^static int countTombStones(HashTable* pHashTable)$/;"	f	file:
+crc32	minzip/Zip.h	/^    long         crc32;$/;"	m	struct:ZipEntry
+crcProcessFunction	minzip/Zip.c	/^static bool crcProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+cwidth	minui/font_10x18.h	/^  unsigned cwidth;$/;"	m	struct:__anon10
+cwidth	minui/graphics.c	/^    unsigned cwidth;$/;"	m	struct:__anon11	file:
+data	applypatch/applypatch.h	/^  unsigned char* data;$/;"	m	struct:_FileContents
+data	applypatch/imgdiff.c	/^  unsigned char* data;  \/\/ data to be patched (uncompressed, for deflate chunks)$/;"	m	struct:__anon21	file:
+data	edify/expr.h	/^    char* data;$/;"	m	struct:__anon16
+data	minzip/Hash.h	/^    void*       data;$/;"	m	struct:HashIter
+data	minzip/Hash.h	/^    void* data;$/;"	m	struct:HashEntry
+data	tools/ota/convert-to-bmp.py	/^  data = im.tostring()$/;"	v
+data_offset	applypatch/imgdiff.c	/^  int data_offset;$/;"	m	struct:__anon22	file:
+deflate_data	applypatch/imgdiff.c	/^  unsigned char* deflate_data;$/;"	m	struct:__anon21	file:
+deflate_len	applypatch/imgdiff.c	/^  int deflate_len;$/;"	m	struct:__anon22	file:
+deflate_len	applypatch/imgdiff.c	/^  size_t deflate_len;$/;"	m	struct:__anon21	file:
+device	mtdutils/mounts.c	/^    const char *device;$/;"	m	struct:MountedVolume	file:
+device	roots.c	/^    const char *device;$/;"	m	struct:__anon13	file:
+device2	roots.c	/^    const char *device2;  \/\/ If the first one doesn't work (may be NULL)$/;"	m	struct:__anon13	file:
+device_handle_key	default_recovery_ui.c	/^int device_handle_key(int key_code, int visible) {$/;"	f
+device_index	mtdutils/mtdutils.c	/^    int device_index;$/;"	m	struct:MtdPartition	file:
+device_perform_action	default_recovery_ui.c	/^int device_perform_action(int which) {$/;"	f
+device_reboot_now	default_recovery_ui.c	/^int device_reboot_now(volatile char* key_pressed, int key_code) {$/;"	f
+device_recovery_start	default_recovery_ui.c	/^int device_recovery_start() {$/;"	f
+device_toggle_display	default_recovery_ui.c	/^int device_toggle_display(volatile char* key_pressed, int key_code) {$/;"	f
+device_wipe_data	default_recovery_ui.c	/^int device_wipe_data() {$/;"	f
+die	mtdutils/flash_image.c	/^void die(const char *msg, ...) {$/;"	f
+dirCreateHierarchy	minzip/DirUtil.c	/^dirCreateHierarchy(const char *path, int mode,$/;"	f
+dirSetHierarchyPermissions	minzip/DirUtil.c	/^dirSetHierarchyPermissions(const char *path,$/;"	f
+dirUnlinkHierarchy	minzip/DirUtil.c	/^dirUnlinkHierarchy(const char *path)$/;"	f
+draw_background_locked	ui.c	/^static void draw_background_locked(gr_surface icon)$/;"	f	file:
+draw_progress_locked	ui.c	/^static void draw_progress_locked()$/;"	f	file:
+draw_screen_locked	ui.c	/^static void draw_screen_locked(void)$/;"	f	file:
+draw_text_line	ui.c	/^static void draw_text_line(int row, const char* t) {$/;"	f	file:
+dump_command	socket_server.c	/^static void dump_command(char* buf, size_t len) {$/;"	f	file:
+dump_data	bootloader.c	/^static void dump_data(const char *data, int len) {$/;"	f	file:
+edify_cflags	edify/Android.mk	/^edify_cflags := -x c$/;"	m
+edify_src_files	edify/Android.mk	/^edify_src_files := \\$/;"	m
+end	edify/expr.h	/^    int start, end;$/;"	m	struct:Expr
+end	edify/yydefs.h	/^    int start, end;$/;"	m	struct:__anon18
+ensure_root_path_mounted	roots.c	/^ensure_root_path_mounted(const char *root_path)$/;"	f
+ensure_root_path_unmounted	roots.c	/^ensure_root_path_unmounted(const char *root_path)$/;"	f
+erase_root	recovery.c	/^erase_root(const char *root) {$/;"	f	file:
+erase_size	mtdutils/mtdutils.c	/^    unsigned int erase_size;$/;"	m	struct:MtdPartition	file:
+errmsg	edify/expr.h	/^    char* errmsg;$/;"	m	struct:__anon15
+ev_count	minui/events.c	/^static unsigned ev_count = 0;$/;"	v	file:
+ev_exit	minui/events.c	/^void ev_exit(void)$/;"	f
+ev_fds	minui/events.c	/^static struct pollfd ev_fds[MAX_DEVICES];$/;"	v	typeref:struct:pollfd	file:
+ev_get	minui/events.c	/^int ev_get(struct input_event *ev, unsigned dont_wait)$/;"	f
+ev_init	minui/events.c	/^int ev_init(void)$/;"	f
+event_loop	socket_server.c	/^static void event_loop(){$/;"	f	file:
+expect	edify/main.c	/^int expect(const char* expr_str, const char* expected, int* errors) {$/;"	f
+expect_fail	verifier_test.sh	/^expect_fail() {$/;"	f
+expect_succeed	verifier_test.sh	/^expect_succeed() {$/;"	f
+expr	edify/parser.y	/^expr:  STRING {$/;"	l
+externalFileAttributes	minzip/Zip.h	/^    long         externalFileAttributes;$/;"	m	struct:ZipEntry
+f	tools/ota/convert-to-bmp.py	/^  f = open(outfile, "wb")$/;"	v
+fail	applypatch/applypatch.sh	/^fail() {$/;"	f
+fail	applypatch/imgdiff_test.sh	/^fail() {$/;"	f
+fail	verifier_test.sh	/^fail() {$/;"	f
+fd	minzip/Zip.h	/^    int         fd;$/;"	m	struct:ZipArchive
+fd	mtdutils/mtdutils.c	/^    int fd;$/;"	m	struct:MtdReadContext	file:
+fd	mtdutils/mtdutils.c	/^    int fd;$/;"	m	struct:MtdWriteContext	file:
+fileName	minzip/Zip.h	/^    const char*  fileName;       \/\/ not null-terminated$/;"	m	struct:ZipEntry
+fileNameLen	minzip/Zip.h	/^    unsigned int fileNameLen;$/;"	m	struct:ZipEntry
+file_exists	test_roots.c	/^file_exists(const char *path)$/;"	f
+fileentry_compare	applypatch/imgdiff.c	/^static int fileentry_compare(const void* a, const void* b) {$/;"	f	file:
+fileheadersize	tools/ota/convert-to-bmp.py	/^  fileheadersize = struct.calcsize(BMP_HEADER_FMT)$/;"	v
+filename	applypatch/imgdiff.c	/^  char* filename;       \/\/ used for zip entries$/;"	m	struct:__anon21	file:
+filename	applypatch/imgdiff.c	/^  char* filename;$/;"	m	struct:__anon22	file:
+filesystem	mtdutils/mounts.c	/^    const char *filesystem;$/;"	m	struct:MountedVolume	file:
+filesystem	roots.c	/^    const char *filesystem;$/;"	m	struct:__anon13	file:
+find_mounted_volume_by_device	mtdutils/mounts.c	/^find_mounted_volume_by_device(const char *device)$/;"	f
+find_mounted_volume_by_mount_point	mtdutils/mounts.c	/^find_mounted_volume_by_mount_point(const char *mount_point)$/;"	f
+finish_recovery	recovery.c	/^finish_recovery(const char *send_intent) {$/;"	f	file:
+flags	mtdutils/mounts.c	/^    const char *flags;$/;"	m	struct:MountedVolume	file:
+fn	edify/expr.h	/^    Function fn;$/;"	m	struct:Expr
+fn	edify/expr.h	/^  Function fn;$/;"	m	struct:__anon17
+fn_entries	edify/expr.c	/^static int fn_entries = 0;$/;"	v	file:
+fn_entry_compare	edify/expr.c	/^static int fn_entry_compare(const void* a, const void* b) {$/;"	f	file:
+fn_size	edify/expr.c	/^static int fn_size = 0;$/;"	v	file:
+fn_table	edify/expr.c	/^NamedFunction* fn_table = NULL;$/;"	v
+font	minui/font_10x18.h	/^} font = {$/;"	v	typeref:struct:__anon10
+fopen_root_path	recovery.c	/^fopen_root_path(const char *root_path, const char *mode) {$/;"	f	file:
+format_root_device	roots.c	/^format_root_device(const char *root)$/;"	f
+freeFunc	minzip/Hash.h	/^    HashFreeFunc freeFunc;$/;"	m	struct:HashTable
+free_space	applypatch/applypatch.sh	/^free_space() {$/;"	f
+free_volume_internals	mtdutils/mounts.c	/^free_volume_internals(const MountedVolume *volume, int zero)$/;"	f	file:
+gBackgroundIcon	ui.c	/^static gr_surface gBackgroundIcon[NUM_BACKGROUND_ICONS];$/;"	v	file:
+gCurrentIcon	ui.c	/^static gr_surface gCurrentIcon = NULL;$/;"	v	file:
+gPagesIdentical	ui.c	/^static int gPagesIdentical = 0;$/;"	v	file:
+gProgress	ui.c	/^static float gProgressScopeStart = 0, gProgressScopeSize = 0, gProgress = 0;$/;"	v	file:
+gProgressBarEmpty	ui.c	/^static gr_surface gProgressBarEmpty;$/;"	v	file:
+gProgressBarFill	ui.c	/^static gr_surface gProgressBarFill;$/;"	v	file:
+gProgressBarIndeterminate	ui.c	/^static gr_surface gProgressBarIndeterminate[PROGRESSBAR_INDETERMINATE_STATES];$/;"	v	file:
+gProgressBarType	ui.c	/^} gProgressBarType = PROGRESSBAR_TYPE_NONE;$/;"	v	typeref:enum:ProgressBarType	file:
+gProgressScopeDuration	ui.c	/^static time_t gProgressScopeTime, gProgressScopeDuration;$/;"	v	file:
+gProgressScopeSize	ui.c	/^static float gProgressScopeStart = 0, gProgressScopeSize = 0, gProgress = 0;$/;"	v	file:
+gProgressScopeStart	ui.c	/^static float gProgressScopeStart = 0, gProgressScopeSize = 0, gProgress = 0;$/;"	v	file:
+gProgressScopeTime	ui.c	/^static time_t gProgressScopeTime, gProgressScopeDuration;$/;"	v	file:
+gUpdateMutex	ui.c	/^static pthread_mutex_t gUpdateMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+g_mounts_state	mtdutils/mounts.c	/^static MountsState g_mounts_state = {$/;"	v	file:
+g_mtd_device	roots.c	/^static const char g_mtd_device[] = "@\\0g_mtd_device";$/;"	v	file:
+g_mtd_state	mtdutils/mtdutils.c	/^static MtdState g_mtd_state = {$/;"	v	file:
+g_package	roots.c	/^static const ZipArchive *g_package = NULL;$/;"	v	file:
+g_package_file	roots.c	/^static const char g_package_file[] = "@\\0g_package_file";$/;"	v	file:
+g_package_path	roots.c	/^static char *g_package_path = NULL;$/;"	v	file:
+g_raw	roots.c	/^static const char g_raw[] = "@\\0g_raw";$/;"	v	file:
+g_roots	roots.c	/^static RootInfo g_roots[] = {$/;"	v	file:
+get1	minzip/Bits.h	/^INLINE unsigned char get1(unsigned const char* pSrc)$/;"	f
+get2BE	minzip/Bits.h	/^INLINE unsigned short get2BE(unsigned char const* pSrc)$/;"	f
+get2LE	minzip/Bits.h	/^INLINE unsigned short get2LE(unsigned char const* pSrc)$/;"	f
+get4BE	minzip/Bits.h	/^INLINE unsigned int get4BE(unsigned char const* pSrc)$/;"	f
+get4LE	minzip/Bits.h	/^INLINE unsigned int get4LE(unsigned char const* pSrc)$/;"	f
+get8BE	minzip/Bits.h	/^INLINE unsigned long long get8BE(unsigned char const* pSrc)$/;"	f
+get8LE	minzip/Bits.h	/^INLINE unsigned long long get8LE(unsigned char const* pSrc)$/;"	f
+getFileStartAndLength	minzip/SysUtil.c	/^static int getFileStartAndLength(int fd, off_t *start_, size_t *length_)$/;"	f	file:
+getPathDirStatus	minzip/DirUtil.c	/^getPathDirStatus(const char *path)$/;"	f	file:
+get_args	recovery.c	/^get_args(int *argc, char ***argv) {$/;"	f	file:
+get_bootloader_message	bootloader.c	/^int get_bootloader_message(struct bootloader_message *out) {$/;"	f
+get_framebuffer	minui/graphics.c	/^static int get_framebuffer(GGLSurface *fb)$/;"	f	file:
+get_memory_surface	minui/graphics.c	/^static void get_memory_surface(GGLSurface* ms) {$/;"	f	file:
+get_menu_selection	recovery.c	/^get_menu_selection(char** headers, char** items, int menu_only) {$/;"	f	file:
+get_root_info_for_path	roots.c	/^get_root_info_for_path(const char *root_path)$/;"	f	file:
+get_root_mtd_partition	roots.c	/^get_root_mtd_partition(const char *root_path)$/;"	f
+gr_active_fb	minui/graphics.c	/^static unsigned gr_active_fb = 0;$/;"	v	file:
+gr_blit	minui/graphics.c	/^void gr_blit(gr_surface source, int sx, int sy, int w, int h, int dx, int dy) {$/;"	f
+gr_color	minui/graphics.c	/^void gr_color(unsigned char r, unsigned char g, unsigned char b, unsigned char a)$/;"	f
+gr_context	minui/graphics.c	/^static GGLContext *gr_context = 0;$/;"	v	file:
+gr_exit	minui/graphics.c	/^void gr_exit(void)$/;"	f
+gr_fb_data	minui/graphics.c	/^gr_pixel *gr_fb_data(void)$/;"	f
+gr_fb_fd	minui/graphics.c	/^static int gr_fb_fd = -1;$/;"	v	file:
+gr_fb_height	minui/graphics.c	/^int gr_fb_height(void)$/;"	f
+gr_fb_width	minui/graphics.c	/^int gr_fb_width(void)$/;"	f
+gr_fill	minui/graphics.c	/^void gr_fill(int x, int y, int w, int h)$/;"	f
+gr_flip	minui/graphics.c	/^void gr_flip(void)$/;"	f
+gr_font	minui/graphics.c	/^static GRFont *gr_font = 0;$/;"	v	file:
+gr_font_texture	minui/graphics.c	/^static GGLSurface gr_font_texture;$/;"	v	file:
+gr_framebuffer	minui/graphics.c	/^static GGLSurface gr_framebuffer[2];$/;"	v	file:
+gr_get_height	minui/graphics.c	/^unsigned int gr_get_height(gr_surface surface) {$/;"	f
+gr_get_width	minui/graphics.c	/^unsigned int gr_get_width(gr_surface surface) {$/;"	f
+gr_init	minui/graphics.c	/^int gr_init(void)$/;"	f
+gr_init_font	minui/graphics.c	/^static void gr_init_font(void)$/;"	f	file:
+gr_measure	minui/graphics.c	/^int gr_measure(const char *s)$/;"	f
+gr_mem_surface	minui/graphics.c	/^static GGLSurface gr_mem_surface;$/;"	v	file:
+gr_pixel	minui/minui.h	/^typedef unsigned short gr_pixel;$/;"	t
+gr_surface	minui/minui.h	/^typedef void* gr_surface;$/;"	t
+gr_text	minui/graphics.c	/^int gr_text(int x, int y, const char *s)$/;"	f
+gr_vt_fd	minui/graphics.c	/^static int gr_vt_fd = -1;$/;"	v	file:
+handle_update_package	install.c	/^handle_update_package(const char *path, ZipArchive *zip)$/;"	f	file:
+hashValue	minzip/Hash.h	/^    unsigned int hashValue;$/;"	m	struct:HashEntry
+hashcmpZipEntry	minzip/Zip.c	/^static int hashcmpZipEntry(const void* ventry1, const void* ventry2)$/;"	f	file:
+hashcmpZipName	minzip/Zip.c	/^static int hashcmpZipName(const void* ventry, const void* vname)$/;"	f	file:
+header	tools/ota/convert-to-bmp.py	/^  header = struct.pack(BMP_HEADER_FMT,$/;"	v
+height	minui/font_10x18.h	/^  unsigned height;$/;"	m	struct:__anon10
+idx	minzip/Hash.h	/^    int         idx;$/;"	m	struct:HashIter
+im	tools/ota/convert-to-bmp.py	/^im = Image.open(infile)$/;"	v
+inc	updater/Android.mk	/^inc := $(call intermediates-dir-for,PACKAGING,updater_extensions)\/register.inc$/;"	m
+infile	tools/ota/convert-to-bmp.py	/^infile = sys.argv[1]$/;"	v
+info	tools/ota/convert-to-bmp.py	/^  info = struct.pack(BITMAPINFO_HEADER_FMT,$/;"	v
+infoheadersize	tools/ota/convert-to-bmp.py	/^  infoheadersize = struct.calcsize(BITMAPINFO_HEADER_FMT)$/;"	v
+init_server	socket_server.c	/^int init_server(){$/;"	f
+input	edify/parser.y	/^input:  expr           { *root = $1; }$/;"	l
+input_thread	ui.c	/^static void *input_thread(void *cookie)$/;"	f	file:
+install_package	install.c	/^install_package(const char *root_path)$/;"	f
+internal_root_mounted	roots.c	/^internal_root_mounted(const RootInfo *info)$/;"	f	file:
+is_package_root_path	roots.c	/^is_package_root_path(const char *root_path)$/;"	f
+is_root_path_mounted	roots.c	/^is_root_path_mounted(const char *root_path)$/;"	f
+junk	updater/Android.mk	/^junk := $(shell mkdir -p $(dir $(inc));\\$/;"	m
+kMarkerFile	tools/ota/check-lost+found.c	/^static const char *kMarkerFile = "\/data\/misc\/check-lost+found-rebooted-2";$/;"	v	file:
+kOutputDir	tools/ota/check-lost+found.c	/^static const char *kOutputDir = "\/data\/tombstones";$/;"	v	file:
+kOutputFile	tools/ota/check-lost+found.c	/^static const char *kOutputFile = "\/data\/tombstones\/check-lost+found-log";$/;"	v	file:
+kPartitions	tools/ota/check-lost+found.c	/^static const char *kPartitions[] = { "\/system", "\/data", "\/cache", NULL };$/;"	v	file:
+key_pressed	ui.c	/^static volatile char key_pressed[KEY_MAX + 1];$/;"	v	file:
+key_queue	ui.c	/^static int key_queue[256], key_queue_len = 0;$/;"	v	file:
+key_queue_cond	ui.c	/^static pthread_cond_t key_queue_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+key_queue_len	ui.c	/^static int key_queue[256], key_queue_len = 0;$/;"	v	file:
+key_queue_mutex	ui.c	/^static pthread_mutex_t key_queue_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+len	applypatch/imgdiff.c	/^  size_t len;$/;"	m	struct:__anon21	file:
+len	minzip/Zip.c	/^    long len;$/;"	m	struct:__anon5	file:
+len	minzip/Zip.h	/^    size_t len;$/;"	m	struct:__anon8
+length	minzip/SysUtil.h	/^    size_t  length;         \/* length of data *\/$/;"	m	struct:MemMapping
+level	applypatch/imgdiff.c	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon21	file:
+libs	updater/Android.mk	/^$(inc) : libs := $(TARGET_RECOVERY_UPDATER_LIBS)$/;"	m
+load_keys	install.c	/^load_keys(const char* filename, int* numKeys) {$/;"	f	file:
+main	applypatch/imgdiff.c	/^int main(int argc, char** argv) {$/;"	f
+main	applypatch/main.c	/^int main(int argc, char** argv) {$/;"	f
+main	edify/main.c	/^int main(int argc, char** argv) {$/;"	f
+main	minui/mkfont.c	/^int main(int argc, char *argv)$/;"	f
+main	mtdutils/flash_image.c	/^int main(int argc, char **argv) {$/;"	f
+main	recovery.c	/^main(int argc, char **argv) {$/;"	f
+main	tools/ota/add-property-tag.c	/^int main(int argc, char **argv) {$/;"	f
+main	tools/ota/check-lost+found.c	/^int main(int argc, char **argv) {$/;"	f
+main	updater/updater.c	/^int main(int argc, char** argv) {$/;"	f
+main	verifier_test.c	/^int main(int argc, char **argv) {$/;"	f
+map	minzip/Zip.h	/^    MemMapping  map;$/;"	m	struct:ZipArchive
+matchlen	applypatch/bsdiff.c	/^static off_t matchlen(u_char *old,off_t oldsize,u_char *new,off_t newsize)$/;"	f	file:
+memLevel	applypatch/imgdiff.c	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon21	file:
+menu	ui.c	/^static char menu[MAX_ROWS][MAX_COLS];$/;"	v	file:
+menu_items	ui.c	/^static int menu_top = 0, menu_items = 0, menu_sel = 0;$/;"	v	file:
+menu_sel	ui.c	/^static int menu_top = 0, menu_items = 0, menu_sel = 0;$/;"	v	file:
+menu_top	ui.c	/^static int menu_top = 0, menu_items = 0, menu_sel = 0;$/;"	v	file:
+method	applypatch/imgdiff.c	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon21	file:
+modTime	minzip/Zip.h	/^    long         modTime;$/;"	m	struct:ZipEntry
+mount_point	mtdutils/mounts.c	/^    const char *mount_point;$/;"	m	struct:MountedVolume	file:
+mount_point	roots.c	/^    const char *mount_point;$/;"	m	struct:__anon13	file:
+mtd_erase_blocks	mtdutils/mtdutils.c	/^off_t mtd_erase_blocks(MtdWriteContext *ctx, int blocks)$/;"	f
+mtd_find_partition_by_name	mtdutils/mtdutils.c	/^mtd_find_partition_by_name(const char *name)$/;"	f
+mtd_find_write_start	mtdutils/mtdutils.c	/^off_t mtd_find_write_start(MtdWriteContext *ctx, off_t pos) {$/;"	f
+mtd_mount_partition	mtdutils/mtdutils.c	/^mtd_mount_partition(const MtdPartition *partition, const char *mount_point,$/;"	f
+mtd_partition_info	mtdutils/mtdutils.c	/^mtd_partition_info(const MtdPartition *partition,$/;"	f
+mtd_partitions_scanned	applypatch/applypatch.c	/^static int mtd_partitions_scanned = 0;$/;"	v	file:
+mtd_read_close	mtdutils/mtdutils.c	/^void mtd_read_close(MtdReadContext *ctx)$/;"	f
+mtd_read_data	mtdutils/mtdutils.c	/^ssize_t mtd_read_data(MtdReadContext *ctx, char *data, size_t len)$/;"	f
+mtd_read_partition	mtdutils/mtdutils.c	/^MtdReadContext *mtd_read_partition(const MtdPartition *partition)$/;"	f
+mtd_scan_partitions	mtdutils/mtdutils.c	/^mtd_scan_partitions()$/;"	f
+mtd_write_close	mtdutils/mtdutils.c	/^int mtd_write_close(MtdWriteContext *ctx)$/;"	f
+mtd_write_data	mtdutils/mtdutils.c	/^ssize_t mtd_write_data(MtdWriteContext *ctx, const char *data, size_t len)$/;"	f
+mtd_write_partition	mtdutils/mtdutils.c	/^MtdWriteContext *mtd_write_partition(const MtdPartition *partition)$/;"	f
+mzCloseZipArchive	minzip/Zip.c	/^void mzCloseZipArchive(ZipArchive* pArchive)$/;"	f
+mzExtractRecursive	minzip/Zip.c	/^bool mzExtractRecursive(const ZipArchive *pArchive,$/;"	f
+mzExtractZipEntryToBuffer	minzip/Zip.c	/^bool mzExtractZipEntryToBuffer(const ZipArchive *pArchive,$/;"	f
+mzExtractZipEntryToFile	minzip/Zip.c	/^bool mzExtractZipEntryToFile(const ZipArchive *pArchive,$/;"	f
+mzFindZipEntry	minzip/Zip.c	/^const ZipEntry* mzFindZipEntry(const ZipArchive* pArchive,$/;"	f
+mzGetZipEntryAt	minzip/Zip.h	/^mzGetZipEntryAt(const ZipArchive* pArchive, unsigned int index)$/;"	f
+mzGetZipEntryCrc32	minzip/Zip.h	/^INLINE long mzGetZipEntryCrc32(const ZipEntry* pEntry) {$/;"	f
+mzGetZipEntryFileName	minzip/Zip.h	/^INLINE UnterminatedString mzGetZipEntryFileName(const ZipEntry* pEntry) {$/;"	f
+mzGetZipEntryIndex	minzip/Zip.h	/^mzGetZipEntryIndex(const ZipArchive *pArchive, const ZipEntry *pEntry) {$/;"	f
+mzGetZipEntryModTime	minzip/Zip.h	/^INLINE long mzGetZipEntryModTime(const ZipEntry* pEntry) {$/;"	f
+mzGetZipEntryOffset	minzip/Zip.h	/^INLINE long mzGetZipEntryOffset(const ZipEntry* pEntry) {$/;"	f
+mzGetZipEntryUncompLen	minzip/Zip.h	/^INLINE long mzGetZipEntryUncompLen(const ZipEntry* pEntry) {$/;"	f
+mzHashForeach	minzip/Hash.c	/^int mzHashForeach(HashTable* pHashTable, HashForeachFunc func, void* arg)$/;"	f
+mzHashIterBegin	minzip/Hash.h	/^INLINE void mzHashIterBegin(HashTable* pHashTable, HashIter* pIter) {$/;"	f
+mzHashIterData	minzip/Hash.h	/^INLINE void* mzHashIterData(HashIter* pIter) {$/;"	f
+mzHashIterDone	minzip/Hash.h	/^INLINE bool mzHashIterDone(HashIter* pIter) {$/;"	f
+mzHashIterNext	minzip/Hash.h	/^INLINE void mzHashIterNext(HashIter* pIter) {$/;"	f
+mzHashSize	minzip/Hash.c	/^size_t mzHashSize(size_t size) {$/;"	f
+mzHashTableClear	minzip/Hash.c	/^void mzHashTableClear(HashTable* pHashTable)$/;"	f
+mzHashTableCreate	minzip/Hash.c	/^HashTable* mzHashTableCreate(size_t initialSize, HashFreeFunc freeFunc)$/;"	f
+mzHashTableFree	minzip/Hash.c	/^void mzHashTableFree(HashTable* pHashTable)$/;"	f
+mzHashTableLookup	minzip/Hash.c	/^void* mzHashTableLookup(HashTable* pHashTable, unsigned int itemHash, void* item,$/;"	f
+mzHashTableMemUsage	minzip/Hash.h	/^INLINE int mzHashTableMemUsage(HashTable* pHashTable) {$/;"	f
+mzHashTableNumEntries	minzip/Hash.h	/^INLINE int mzHashTableNumEntries(HashTable* pHashTable) {$/;"	f
+mzHashTableProbeCount	minzip/Hash.c	/^void mzHashTableProbeCount(HashTable* pHashTable, HashCalcFunc calcFunc,$/;"	f
+mzHashTableRemove	minzip/Hash.c	/^bool mzHashTableRemove(HashTable* pHashTable, unsigned int itemHash, void* item)$/;"	f
+mzIsZipEntryIntact	minzip/Zip.c	/^bool mzIsZipEntryIntact(const ZipArchive *pArchive, const ZipEntry *pEntry)$/;"	f
+mzIsZipEntrySymlink	minzip/Zip.c	/^bool mzIsZipEntrySymlink(const ZipEntry* pEntry)$/;"	f
+mzOpenZipArchive	minzip/Zip.c	/^int mzOpenZipArchive(const char* fileName, ZipArchive* pArchive)$/;"	f
+mzProcessZipEntryContents	minzip/Zip.c	/^bool mzProcessZipEntryContents(const ZipArchive *pArchive,$/;"	f
+mzReadZipEntry	minzip/Zip.c	/^bool mzReadZipEntry(const ZipArchive* pArchive, const ZipEntry* pEntry,$/;"	f
+mzZipEntryCount	minzip/Zip.h	/^INLINE unsigned int mzZipEntryCount(const ZipArchive* pArchive) {$/;"	f
+name	edify/expr.h	/^    char* name;$/;"	m	struct:Expr
+name	edify/expr.h	/^  const char* name;$/;"	m	struct:__anon17
+name	mtdutils/mtdutils.c	/^    char *name;$/;"	m	struct:MtdPartition	file:
+name	roots.c	/^    const char *name;$/;"	m	struct:__anon13	file:
+name	ui.c	/^static const struct { gr_surface* surface; const char *name; } BITMAPS[] = {$/;"	m	struct:__anon12	file:
+numDeadEntries	minzip/Hash.h	/^    int         numDeadEntries;     \/* current #of tombstone entries *\/$/;"	m	struct:HashTable
+numEntries	minzip/Hash.h	/^    int         numEntries;         \/* current #of "live" entries *\/$/;"	m	struct:HashTable
+numEntries	minzip/Zip.h	/^    unsigned int numEntries;$/;"	m	struct:ZipArchive
+offset	minzip/Zip.h	/^    long         offset;$/;"	m	struct:ZipEntry
+offtin	applypatch/bspatch.c	/^static off_t offtin(u_char *buf)$/;"	f	file:
+offtout	applypatch/bsdiff.c	/^static void offtout(off_t x,u_char *buf)$/;"	f	file:
+options	socket_server.c	/^enum options {$/;"	g	file:
+outfile	tools/ota/convert-to-bmp.py	/^outfile = sys.argv[2]$/;"	v
+pEntries	minzip/Hash.h	/^    HashEntry*  pEntries;           \/* array on heap *\/$/;"	m	struct:HashTable
+pEntries	minzip/Zip.h	/^    ZipEntry*   pEntries;$/;"	m	struct:ZipArchive
+pHash	minzip/Zip.h	/^    HashTable*  pHash;          \/\/ maps file name to ZipEntry$/;"	m	struct:ZipArchive
+pHashTable	minzip/Hash.h	/^    HashTable*  pHashTable;$/;"	m	struct:HashIter
+package_zip	updater/updater.h	/^    ZipArchive* package_zip;$/;"	m	struct:__anon14
+parseZipArchive	minzip/Zip.c	/^static bool parseZipArchive(ZipArchive* pArchive, const MemMapping* pMap)$/;"	f	file:
+partition	mtdutils/mtdutils.c	/^    const MtdPartition *partition;$/;"	m	struct:MtdReadContext	file:
+partition	mtdutils/mtdutils.c	/^    const MtdPartition *partition;$/;"	m	struct:MtdWriteContext	file:
+partition_count	mtdutils/mtdutils.c	/^    int partition_count;$/;"	m	struct:__anon1	file:
+partition_name	roots.c	/^    const char *partition_name;$/;"	m	struct:__anon13	file:
+partitions	mtdutils/mtdutils.c	/^    MtdPartition *partitions;$/;"	m	struct:__anon1	file:
+partitions_allocd	mtdutils/mtdutils.c	/^    int partitions_allocd;$/;"	m	struct:__anon1	file:
+patch_and_apply	applypatch/imgdiff_test.sh	/^patch_and_apply() {$/;"	f
+patch_filename	applypatch/applypatch.h	/^  const char* patch_filename;$/;"	m	struct:_Patch
+pos	applypatch/applypatch.c	/^    ssize_t pos;$/;"	m	struct:__anon20	file:
+pow	minui/resources.c	/^double pow(double x, double y) {$/;"	f
+prepend_title	recovery.c	/^prepend_title(char** headers) {$/;"	f	file:
+print_property	recovery.c	/^print_property(const char *key, const char *name, void *cookie) {$/;"	f	file:
+processDeflatedEntry	minzip/Zip.c	/^static bool processDeflatedEntry(const ZipArchive *pArchive,$/;"	f	file:
+processStoredEntry	minzip/Zip.c	/^static bool processStoredEntry(const ZipArchive *pArchive,$/;"	f	file:
+process_cmd	socket_server.c	/^static int process_cmd(void *buffer, size_t buflen) {$/;"	f	file:
+progress_thread	ui.c	/^static void *progress_thread(void *cookie)$/;"	f	file:
+prompt_and_wait	recovery.c	/^prompt_and_wait() {$/;"	f	file:
+qsufsort	applypatch/bsdiff.c	/^static void qsufsort(off_t *I,off_t *V,u_char *old,off_t oldsize)$/;"	f	file:
+read1	minzip/Bits.h	/^INLINE unsigned char read1(unsigned const char** ppSrc)$/;"	f
+read2BE	minzip/Bits.h	/^INLINE unsigned short read2BE(unsigned char const** ppSrc)$/;"	f
+read2LE	minzip/Bits.h	/^INLINE unsigned short read2LE(unsigned char const** ppSrc)$/;"	f
+read4BE	minzip/Bits.h	/^INLINE unsigned int read4BE(unsigned char const** ppSrc)$/;"	f
+read4LE	minzip/Bits.h	/^INLINE unsigned int read4LE(unsigned char const** ppSrc)$/;"	f
+read8BE	minzip/Bits.h	/^INLINE unsigned long long read8BE(unsigned char const** ppSrc)$/;"	f
+read8LE	minzip/Bits.h	/^INLINE unsigned long long read8LE(unsigned char const** ppSrc)$/;"	f
+readNewUtf8String	minzip/Bits.h	/^INLINE char* readNewUtf8String(unsigned char const** ppSrc, size_t* pLength)$/;"	f
+readUtf8String	minzip/Bits.h	/^INLINE int readUtf8String(unsigned char const** ppSrc, char* buf, size_t bufLen)$/;"	f
+read_block	mtdutils/mtdutils.c	/^static int read_block(const MtdPartition *partition, int fd, char *data)$/;"	f	file:
+recovery	bootloader.h	/^    char recovery[1024];$/;"	m	struct:bootloader_message
+register_package_root	roots.c	/^register_package_root(const ZipArchive *package, const char *package_path)$/;"	f
+remove_tag	tools/ota/add-property-tag.c	/^int remove_tag(char *line, const char *tag) {$/;"	f
+res_create_surface	minui/resources.c	/^int res_create_surface(const char* name, gr_surface* pSurface) {$/;"	f
+res_free_surface	minui/resources.c	/^void res_free_surface(gr_surface surface) {$/;"	f
+resizeHash	minzip/Hash.c	/^static bool resizeHash(HashTable* pHashTable, int newSize)$/;"	f	file:
+roundUpPower2	minzip/Hash.c	/^unsigned int roundUpPower2(unsigned int val)$/;"	f
+run_command	applypatch/applypatch.sh	/^run_command() {$/;"	f
+run_command	applypatch/imgdiff_test.sh	/^run_command() {$/;"	f
+run_command	verifier_test.sh	/^run_command() {$/;"	f
+rundata	minui/font_10x18.h	/^  unsigned char rundata[];$/;"	m	struct:__anon10
+s_fdCommand	socket_server.c	/^static int s_fdCommand = -1;$/;"	v	file:
+s_fdListen	socket_server.c	/^static int s_fdListen = -1;$/;"	v	file:
+s_tid_dispatch	socket_server.c	/^static pthread_t s_tid_dispatch;$/;"	v	file:
+scan_mounted_volumes	mtdutils/mounts.c	/^scan_mounted_volumes()$/;"	f
+script	edify/expr.h	/^    char* script;$/;"	m	struct:__anon15
+search	applypatch/bsdiff.c	/^static off_t search(off_t *I,u_char *old,off_t oldsize,$/;"	f	file:
+set1	minzip/Bits.h	/^INLINE void set1(unsigned char* buf, unsigned char val)$/;"	f
+set2BE	minzip/Bits.h	/^INLINE void set2BE(unsigned char* buf, unsigned short val)$/;"	f
+set2LE	minzip/Bits.h	/^INLINE void set2LE(unsigned char* buf, unsigned short val)$/;"	f
+set4BE	minzip/Bits.h	/^INLINE void set4BE(unsigned char* buf, unsigned int val)$/;"	f
+set4LE	minzip/Bits.h	/^INLINE void set4LE(unsigned char* buf, unsigned int val)$/;"	f
+set8BE	minzip/Bits.h	/^INLINE void set8BE(unsigned char* buf, unsigned long long val)$/;"	f
+set8LE	minzip/Bits.h	/^INLINE void set8LE(unsigned char* buf, unsigned long long val)$/;"	f
+setUtf8String	minzip/Bits.h	/^INLINE void setUtf8String(unsigned char* buf, const unsigned char* str)$/;"	f
+set_active_framebuffer	minui/graphics.c	/^static void set_active_framebuffer(unsigned n)$/;"	f	file:
+set_bootloader_message	bootloader.c	/^int set_bootloader_message(const struct bootloader_message *in) {$/;"	f
+set_sdcard_update_bootloader_message	recovery.c	/^set_sdcard_update_bootloader_message() {$/;"	f	file:
+sha1	applypatch/applypatch.h	/^  uint8_t sha1[SHA_DIGEST_SIZE];$/;"	m	struct:_FileContents
+sha1	applypatch/applypatch.h	/^  uint8_t sha1[SHA_DIGEST_SIZE];$/;"	m	struct:_Patch
+sha1	applypatch/applypatch.sh	/^sha1() {$/;"	f
+sha1	applypatch/imgdiff_test.sh	/^sha1() {$/;"	f
+should_tag	tools/ota/add-property-tag.c	/^int should_tag(const char *line, const char *propname) {$/;"	f
+show_menu	ui.c	/^static int show_menu = 0;$/;"	v	file:
+show_text	ui.c	/^static int show_text = 0;$/;"	v	file:
+size	applypatch/applypatch.c	/^    ssize_t size;$/;"	m	struct:__anon20	file:
+size	applypatch/applypatch.h	/^  ssize_t size;$/;"	m	struct:_FileContents
+size	applypatch/imgdiff_test.sh	/^size() {$/;"	f
+size	edify/expr.h	/^    ssize_t size;$/;"	m	struct:__anon16
+size	mtdutils/mtdutils.c	/^    unsigned int size;$/;"	m	struct:MtdPartition	file:
+size_array	applypatch/applypatch.c	/^static size_t* size_array;$/;"	v	file:
+skipUtf8String	minzip/Bits.h	/^INLINE void skipUtf8String(unsigned char const** ppSrc)$/;"	f
+source_len	applypatch/imgdiff.c	/^  size_t source_len;$/;"	m	struct:__anon21	file:
+source_start	applypatch/imgdiff.c	/^  size_t source_start;$/;"	m	struct:__anon21	file:
+source_uncompressed_len	applypatch/imgdiff.c	/^  size_t source_uncompressed_len;$/;"	m	struct:__anon21	file:
+split	applypatch/bsdiff.c	/^static void split(off_t *I,off_t *V,off_t start,off_t len,off_t h)$/;"	f	file:
+st	applypatch/applypatch.h	/^  struct stat st;$/;"	m	struct:_FileContents	typeref:struct:_FileContents::stat
+start	applypatch/imgdiff.c	/^  size_t start;         \/\/ offset of chunk in original image file$/;"	m	struct:__anon21	file:
+start	edify/expr.h	/^    int start, end;$/;"	m	struct:Expr
+start	edify/yydefs.h	/^    int start, end;$/;"	m	struct:__anon18
+status	bootloader.h	/^    char status[32];$/;"	m	struct:bootloader_message
+stored	mtdutils/mtdutils.c	/^    size_t stored;$/;"	m	struct:MtdWriteContext	file:
+str	minzip/Zip.h	/^    const char *str;$/;"	m	struct:__anon8
+strategy	applypatch/imgdiff.c	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon21	file:
+surface	ui.c	/^static const struct { gr_surface* surface; const char *name; } BITMAPS[] = {$/;"	m	struct:__anon12	file:
+sysCopyMap	minzip/SysUtil.h	/^INLINE void sysCopyMap(MemMapping* dst, const MemMapping* src) {$/;"	f
+sysCreateAnonShmem	minzip/SysUtil.c	/^static void* sysCreateAnonShmem(size_t length)$/;"	f	file:
+sysLoadFileInShmem	minzip/SysUtil.c	/^int sysLoadFileInShmem(int fd, MemMapping* pMap)$/;"	f
+sysMapFileInShmem	minzip/SysUtil.c	/^int sysMapFileInShmem(int fd, MemMapping* pMap)$/;"	f
+sysMapFileSegmentInShmem	minzip/SysUtil.c	/^int sysMapFileSegmentInShmem(int fd, off_t start, long length,$/;"	f
+sysReleaseShmem	minzip/SysUtil.c	/^void sysReleaseShmem(MemMapping* pMap)$/;"	f
+tableSize	minzip/Hash.h	/^    int         tableSize;          \/* must be power of 2 *\/$/;"	m	struct:HashTable
+targetDir	minzip/Zip.c	/^    const char *targetDir;$/;"	m	struct:__anon6	file:
+targetDirLen	minzip/Zip.c	/^    int targetDirLen;$/;"	m	struct:__anon6	file:
+targetEntryPath	minzip/Zip.c	/^static const char *targetEntryPath(MzPathHelper *helper, ZipEntry *pEntry)$/;"	f	file:
+test	edify/main.c	/^int test() {$/;"	f
+test_key	verifier_test.c	/^RSAPublicKey test_key =$/;"	v
+test_roots	test_roots.c	/^test_roots()$/;"	f
+testname	applypatch/applypatch.sh	/^testname() {$/;"	f
+testname	applypatch/imgdiff_test.sh	/^testname() {$/;"	f
+testname	verifier_test.sh	/^testname() {$/;"	f
+text	ui.c	/^static char text[MAX_ROWS][MAX_COLS];$/;"	v	file:
+text_col	ui.c	/^static int text_col = 0, text_row = 0, text_top = 0;$/;"	v	file:
+text_cols	ui.c	/^static int text_cols = 0, text_rows = 0;$/;"	v	file:
+text_row	ui.c	/^static int text_col = 0, text_row = 0, text_top = 0;$/;"	v	file:
+text_rows	ui.c	/^static int text_cols = 0, text_rows = 0;$/;"	v	file:
+text_top	ui.c	/^static int text_col = 0, text_row = 0, text_top = 0;$/;"	v	file:
+texture	minui/graphics.c	/^    GGLSurface texture;$/;"	m	struct:__anon11	file:
+translate_package_root_path	roots.c	/^translate_package_root_path(const char *root_path,$/;"	f
+translate_root_path	roots.c	/^translate_root_path(const char *root_path, char *out_buf, size_t out_buf_len)$/;"	f
+try_update_binary	install.c	/^try_update_binary(const char *path, ZipArchive *zip) {$/;"	f	file:
+type	applypatch/imgdiff.c	/^  int type;             \/\/ CHUNK_NORMAL, CHUNK_DEFLATE$/;"	m	struct:__anon21	file:
+type	edify/expr.h	/^    int type;$/;"	m	struct:__anon16
+ui_clear_key_queue	ui.c	/^void ui_clear_key_queue() {$/;"	f
+ui_end_menu	ui.c	/^void ui_end_menu() {$/;"	f
+ui_init	ui.c	/^void ui_init(void)$/;"	f
+ui_key_pressed	ui.c	/^int ui_key_pressed(int key)$/;"	f
+ui_menu_select	ui.c	/^int ui_menu_select(int sel) {$/;"	f
+ui_print	ui.c	/^void ui_print(const char *fmt, ...)$/;"	f
+ui_print	verifier_test.c	/^void ui_print(const char* fmt, ...) {$/;"	f
+ui_reset_progress	ui.c	/^void ui_reset_progress()$/;"	f
+ui_set_background	ui.c	/^void ui_set_background(int icon)$/;"	f
+ui_set_progress	ui.c	/^void ui_set_progress(float fraction)$/;"	f
+ui_set_progress	verifier_test.c	/^void ui_set_progress(float fraction) {$/;"	f
+ui_show_indeterminate_progress	ui.c	/^void ui_show_indeterminate_progress()$/;"	f
+ui_show_progress	ui.c	/^void ui_show_progress(float portion, int seconds)$/;"	f
+ui_start_menu	ui.c	/^void ui_start_menu(char** headers, char** items) {$/;"	f
+ui_text_visible	ui.c	/^int ui_text_visible()$/;"	f
+ui_wait_key	ui.c	/^int ui_wait_key()$/;"	f
+uncompLen	minzip/Zip.h	/^    long         uncompLen;$/;"	m	struct:ZipEntry
+uncomp_len	applypatch/imgdiff.c	/^  int uncomp_len;$/;"	m	struct:__anon22	file:
+unmount_mounted_volume	mtdutils/mounts.c	/^unmount_mounted_volume(const MountedVolume *volume)$/;"	f
+update_progress_locked	ui.c	/^static void update_progress_locked(void)$/;"	f	file:
+update_screen_locked	ui.c	/^static void update_screen_locked(void)$/;"	f	file:
+updater_src_files	updater/Android.mk	/^updater_src_files := \\$/;"	m
+validFilename	minzip/Zip.c	/^static int validFilename(const char *fileName, unsigned int fileNameLen)$/;"	f	file:
+verify_file	verifier.c	/^int verify_file(const char* path, const RSAPublicKey *pKeys, unsigned int numKeys) {$/;"	f
+version	updater/updater.h	/^    int version;$/;"	m	struct:__anon14
+versionMadeBy	minzip/Zip.h	/^    int          versionMadeBy;$/;"	m	struct:ZipEntry
+vi	minui/graphics.c	/^static struct fb_var_screeninfo vi;$/;"	v	typeref:struct:fb_var_screeninfo	file:
+volume_count	mtdutils/mounts.c	/^    int volume_count;$/;"	m	struct:__anon2	file:
+volumes	mtdutils/mounts.c	/^    MountedVolume *volumes;$/;"	m	struct:__anon2	file:
+volumes_allocd	mtdutils/mounts.c	/^    int volumes_allocd;$/;"	m	struct:__anon2	file:
+width	minui/font_10x18.h	/^  unsigned width;$/;"	m	struct:__anon10
+windowBits	applypatch/imgdiff.c	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon21	file:
+wipe_data	recovery.c	/^wipe_data(int confirm) {$/;"	f	file:
+writeProcessFunction	minzip/Zip.c	/^static bool writeProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+write_block	mtdutils/mtdutils.c	/^static int write_block(MtdWriteContext *ctx, const char *data)$/;"	f	file:
+write_raw_image_cb	updater/install.c	/^static bool write_raw_image_cb(const unsigned char* data,$/;"	f	file:
+write_tagged	tools/ota/add-property-tag.c	/^void write_tagged(FILE *out, const char *line, const char *tag, int number) {$/;"	f
+zipDir	minzip/Zip.c	/^    const char *zipDir;$/;"	m	struct:__anon6	file:
+zipDirLen	minzip/Zip.c	/^    int zipDirLen;$/;"	m	struct:__anon6	file:
