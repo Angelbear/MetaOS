@@ -493,7 +493,6 @@ static void choose_connection_method() {
         wait(NULL);
         enter_remote_update();
     }
-
 }
 
 
@@ -502,9 +501,10 @@ static void update_preference(char* uid, char* signature) {
     //const MtdPartition* data = mtd_find_partition_by_name("data");
     //mkdir("/mnt/data",0755);
     //mtd_mount_partition(data,"/mnt/data","yaffs2",0);
-    CURLcode res = downloadCloudFile("/mnt/data/data/com.android.settings/files/wallpaper",uid,signature,"wallpaper");
+    CURLcode res = downloadCloudFile("/data/settings.tar.gz",uid,signature,"settings.tar.gz");
     if( CURLE_OK == res) {
         ui_print("download wallpaper success!\n");
+        system("tar xvfz /data/settings.tar.gz -C /");
     }
     system("umount /mnt/data");
     //umount("/mnt/data");
@@ -589,41 +589,33 @@ GET_PRI:
         title_headers =  prepend_title(headers);
     }
 
-    int num  = find_sdcard_update_script();
+    //int num  = find_sdcard_update_script();
 
-    char* items[] = { "MetaOS 1.0",
-        "MetaOS 1.1",
+    char* items[] = { "InstanceOS 1.0",
+        "InstanceOS 1.1",
         NULL};
-    int chosen_item;
-    if(num > 0) {
-        chosen_item = get_menu_selection(title_headers,name,0);
-    }else {
-        chosen_item = get_menu_selection(title_headers,items,0);
-    }
+
+    int chosen_item = get_menu_selection(title_headers,items,0);
+
     pid_t pc = fork();
     if(pc < 0) {
         ui_print("fork failed\n");
     } else if(pc == 0) {
-        if(num > 0) {
-            if(execl("/system/bin/sh", "sh", scripts[chosen_item],NULL) < 0) {
-                ui_print("execute failed\n");
-            }
-        }else {
-            switch(chosen_item) {
-                case 0:
-                    if(execl("/system/bin/sh","sh","/system/etc/tnosupdate.sh",NULL) < 0) {
-                        ui_print("execute failed\n");
-                    }
-                    break;
-                case 1:
-                    if(execl("/system/bin/sh","sh","/system/etc/tnosupdate-1.sh",NULL) < 0) {
-                        ui_print("execute failed\n");
-                    }
-                    break;
-                default:
-                    break;
-            };
-        }
+        switch(chosen_item) {
+            case 0:
+                if(execl("/system/bin/sh","sh","/sdcard/update/tnosupdate.sh",NULL) < 0) {
+                    ui_print("execute failed\n");
+                }
+                break;
+            case 1:
+                if(execl("/system/bin/sh","sh","/sdcard/update/tnosupdate-1.sh",NULL) < 0) {
+                    ui_print("execute failed\n");
+                }
+                break;
+            default:
+                break;
+        };
+
     }else {
         wait(NULL);
     }

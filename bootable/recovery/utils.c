@@ -78,9 +78,9 @@ int is_internet_connected() {
 
 extern char *path_cat (const char *str1, char *str2);
 
-
-char name[256][256] = { NULL };
-char scripts[256][256] = { NULL};
+#define MAX_UPDATE_SCRITS 16
+char name[MAX_UPDATE_SCRITS][256] = { NULL };
+char scripts[MAX_UPDATE_SCRITS][256] = { NULL};
 static char* UPDATE_SCRIPT_REGEX="(.*).sh";
 int find_sdcard_update_script() {
     struct dirent *dp;
@@ -99,7 +99,7 @@ int find_sdcard_update_script() {
     const char* dir_path="./test_dir/";
 #endif
     DIR *dir = opendir(dir_path);
-    while ((dp=readdir(dir)) != NULL) {
+    while ((dp=readdir(dir)) != NULL && result < MAX_UPDATE_SCRITS) {
         char *tmp;
         tmp = path_cat(dir_path, dp->d_name);
         ret = regexec(&reg, dp->d_name, nmatch, pm, 0);

@@ -16,6 +16,7 @@ on init
     mkdir /mnt
     mkdir /mnt/system
     mkdir /mnt/data
+    mkdir /data/system
 
     mkdir /data/system 0711 system system
 
@@ -24,7 +25,7 @@ on init
     mount yaffs2 mtd@telephony /marvell
    # mount yaffs2 mtd@telephony /marvell ro remount
    # mount yaffs2 mtd@system /system
-   # mount yaffs2 mtd@userdata /data
+    mount yaffs2 mtd@userdata /data
 
     symlink /sbin/busybox /sbin/sh
     symlink /sbin/busybox /system/bin/sh
@@ -45,7 +46,7 @@ on boot
 
     class_start default
 
-service console /system/bin/sh
+service console /sbin/sh
 	console
 
 service install_busybox /sbin/busybox --install

